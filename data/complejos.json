@@ -1,0 +1,3341 @@
+[
+  {
+    "id": "5",
+    "name": "Cinépolis Sur Aguascalientes",
+    "state": "Aguascalientes",
+    "city": "Aguascalientes",
+    "screens": 12
+  },
+  {
+    "id": "880",
+    "name": "Cinépolis Velaria Mall",
+    "state": "Aguascalientes",
+    "city": "Aguascalientes",
+    "screens": 7
+  },
+  {
+    "id": "1",
+    "name": "Cinépolis Altaria",
+    "state": "Aguascalientes",
+    "city": "Aguascalientes",
+    "screens": 10
+  },
+  {
+    "id": "879",
+    "name": "Cinépolis Espacio Aguascalientes",
+    "state": "Aguascalientes",
+    "city": "Aguascalientes",
+    "screens": 8
+  },
+  {
+    "id": "6",
+    "name": "Cinépolis Aguascalientes",
+    "state": "Aguascalientes",
+    "city": "Aguascalientes",
+    "screens": 14
+  },
+  {
+    "id": "3",
+    "name": "Cinépolis VIP Altaria",
+    "state": "Aguascalientes",
+    "city": "Aguascalientes",
+    "screens": 4
+  },
+  {
+    "id": "8",
+    "name": "Cinépolis Macroplaza del Mar",
+    "state": "Baja California",
+    "city": "Ensenada",
+    "screens": 12
+  },
+  {
+    "id": "7",
+    "name": "Cinépolis Plaza Marina",
+    "state": "Baja California",
+    "city": "Ensenada",
+    "screens": 11
+  },
+  {
+    "id": "931",
+    "name": "Cinépolis VIP San Pedro Mexicalli",
+    "state": "Baja California",
+    "city": "Mexicali",
+    "screens": 4
+  },
+  {
+    "id": "10",
+    "name": "Cinépolis Plaza San Pedro Mexicali",
+    "state": "Baja California",
+    "city": "Mexicali",
+    "screens": 13
+  },
+  {
+    "id": "11",
+    "name": "Cinépolis Galerias del Valle Mexicali",
+    "state": "Baja California",
+    "city": "Mexicali",
+    "screens": 12
+  },
+  {
+    "id": "1128",
+    "name": "Cinépolis Punta Anáhuac",
+    "state": "Baja California",
+    "city": "Mexicali",
+    "screens": 0
+  },
+  {
+    "id": "12",
+    "name": "Cinépolis Centro Cívico",
+    "state": "Baja California",
+    "city": "Mexicali",
+    "screens": 11
+  },
+  {
+    "id": "15",
+    "name": "Cinépolis Plaza Centenario",
+    "state": "Baja California",
+    "city": "Mexicali",
+    "screens": 12
+  },
+  {
+    "id": "1173",
+    "name": "Cinépolis Sendero Mexicali",
+    "state": "Baja California",
+    "city": "Mexicali",
+    "screens": 10
+  },
+  {
+    "id": "13",
+    "name": "Cinépolis Nuevo Mexicali",
+    "state": "Baja California",
+    "city": "Mexicali",
+    "screens": 12
+  },
+  {
+    "id": "18",
+    "name": "Cinépolis Tecate",
+    "state": "Baja California",
+    "city": "Tecate",
+    "screens": 7
+  },
+  {
+    "id": "798",
+    "name": "Cinépolis Galerías Hipódromo",
+    "state": "Baja California",
+    "city": "Tijuana",
+    "screens": 8
+  },
+  {
+    "id": "28",
+    "name": "Cinépolis Plaza Americana Otay",
+    "state": "Baja California",
+    "city": "Tijuana",
+    "screens": 10
+  },
+  {
+    "id": "505",
+    "name": "Cinépolis La Pajarita",
+    "state": "Baja California",
+    "city": "Tijuana",
+    "screens": 5
+  },
+  {
+    "id": "29",
+    "name": "Cinépolis Playas",
+    "state": "Baja California",
+    "city": "Tijuana",
+    "screens": 8
+  },
+  {
+    "id": "23",
+    "name": "Cinépolis Plaza Monarca",
+    "state": "Baja California",
+    "city": "Tijuana",
+    "screens": 16
+  },
+  {
+    "id": "26",
+    "name": "Cinépolis Carrousel",
+    "state": "Baja California",
+    "city": "Tijuana",
+    "screens": 12
+  },
+  {
+    "id": "19",
+    "name": "Cinépolis Vip Plaza Río",
+    "state": "Baja California",
+    "city": "Tijuana",
+    "screens": 5
+  },
+  {
+    "id": "24",
+    "name": "Cinépolis Plaza Río",
+    "state": "Baja California",
+    "city": "Tijuana",
+    "screens": 14
+  },
+  {
+    "id": "799",
+    "name": "Cinépolis VIP Galerías Hipódromo",
+    "state": "Baja California",
+    "city": "Tijuana",
+    "screens": 4
+  },
+  {
+    "id": "985",
+    "name": "Cinépolis Paseo Chapultepec",
+    "state": "Baja California",
+    "city": "Tijuana",
+    "screens": 5
+  },
+  {
+    "id": "27",
+    "name": "Cinépolis Paseo 2000 Tijuana",
+    "state": "Baja California",
+    "city": "Tijuana",
+    "screens": 10
+  },
+  {
+    "id": "16",
+    "name": "Cinépolis Pabellón Rosarito",
+    "state": "Baja California",
+    "city": "Playas de Rosarito",
+    "screens": 10
+  },
+  {
+    "id": "805",
+    "name": "Cinépolis The Shoppes",
+    "state": "Baja California Sur",
+    "city": "La Paz",
+    "screens": 8
+  },
+  {
+    "id": "30",
+    "name": "Cinépolis La Paz",
+    "state": "Baja California Sur",
+    "city": "La Paz",
+    "screens": 15
+  },
+  {
+    "id": "587",
+    "name": "Cinépolis Paseo La Paz",
+    "state": "Baja California Sur",
+    "city": "La Paz",
+    "screens": 5
+  },
+  {
+    "id": "31",
+    "name": "Cinépolis San José del Cabo",
+    "state": "Baja California Sur",
+    "city": "Los Cabos",
+    "screens": 8
+  },
+  {
+    "id": "32",
+    "name": "Cinépolis Cabo San Lucas",
+    "state": "Baja California Sur",
+    "city": "Los Cabos",
+    "screens": 10
+  },
+  {
+    "id": "437",
+    "name": "Cinépolis VIP Galerías Campeche",
+    "state": "Campeche",
+    "city": "Campeche",
+    "screens": 3
+  },
+  {
+    "id": "436",
+    "name": "Cinépolis Galerías Campeche",
+    "state": "Campeche",
+    "city": "Campeche",
+    "screens": 11
+  },
+  {
+    "id": "790",
+    "name": "Cinépolis Zentralia",
+    "state": "Campeche",
+    "city": "Carmen",
+    "screens": 7
+  },
+  {
+    "id": "791",
+    "name": "Cinépolis Zentralia VIP Ciudad del Carmen",
+    "state": "Campeche",
+    "city": "Carmen",
+    "screens": 3
+  },
+  {
+    "id": "59",
+    "name": "Cinépolis Ciudad Acuña",
+    "state": "Coahuila de Zaragoza",
+    "city": "Acuña",
+    "screens": 8
+  },
+  {
+    "id": "957",
+    "name": "Cinépolis Matamoros",
+    "state": "Coahuila de Zaragoza",
+    "city": "Matamoros",
+    "screens": 5
+  },
+  {
+    "id": "928",
+    "name": "Cinépolis Paseo Monclova",
+    "state": "Coahuila de Zaragoza",
+    "city": "Monclova",
+    "screens": 10
+  },
+  {
+    "id": "1174",
+    "name": "Cinépolis VIP Paseo Monclova",
+    "state": "Coahuila de Zaragoza",
+    "city": "Monclova",
+    "screens": 4
+  },
+  {
+    "id": "1105",
+    "name": "Cinépolis Muzquiz",
+    "state": "Coahuila de Zaragoza",
+    "city": "Múzquiz",
+    "screens": 0
+  },
+  {
+    "id": "1177",
+    "name": "Cinépolis Plaza Madero",
+    "state": "Coahuila de Zaragoza",
+    "city": "Parras",
+    "screens": 5
+  },
+  {
+    "id": "1143",
+    "name": "Cinépolis Ramos Arizpe",
+    "state": "Coahuila de Zaragoza",
+    "city": "Ramos Arizpe",
+    "screens": 5
+  },
+  {
+    "id": "1144",
+    "name": "Cinépolis Ramos Arizpe",
+    "state": "Coahuila de Zaragoza",
+    "city": "Ramos Arizpe",
+    "screens": 5
+  },
+  {
+    "id": "65",
+    "name": "Cinépolis Sendero Saltillo",
+    "state": "Coahuila de Zaragoza",
+    "city": "Saltillo",
+    "screens": 12
+  },
+  {
+    "id": "1132",
+    "name": "Cinepolis Paseo Villalta",
+    "state": "Coahuila de Zaragoza",
+    "city": "Saltillo",
+    "screens": 0
+  },
+  {
+    "id": "900",
+    "name": "Cinépolis Sendero Saltillo Sur",
+    "state": "Coahuila de Zaragoza",
+    "city": "Saltillo",
+    "screens": 10
+  },
+  {
+    "id": "62",
+    "name": "Cinépolis VIP Sendero Saltillo",
+    "state": "Coahuila de Zaragoza",
+    "city": "Saltillo",
+    "screens": 4
+  },
+  {
+    "id": "66",
+    "name": "Cinépolis La Nogalera",
+    "state": "Coahuila de Zaragoza",
+    "city": "Saltillo",
+    "screens": 15
+  },
+  {
+    "id": "1146",
+    "name": "Cinépolis VIP Paseo Villalta",
+    "state": "Coahuila de Zaragoza",
+    "city": "Saltillo",
+    "screens": 4
+  },
+  {
+    "id": "935",
+    "name": "Cinépolis San Pedro",
+    "state": "Coahuila de Zaragoza",
+    "city": "San Pedro",
+    "screens": 5
+  },
+  {
+    "id": "70",
+    "name": "Cinépolis Cuatro Caminos",
+    "state": "Coahuila de Zaragoza",
+    "city": "Torreón",
+    "screens": 12
+  },
+  {
+    "id": "1156",
+    "name": "Cinépolis Plaza Nazas",
+    "state": "Coahuila de Zaragoza",
+    "city": "Torreón",
+    "screens": 5
+  },
+  {
+    "id": "878",
+    "name": "Cinépolis VIP Galerías Laguna",
+    "state": "Coahuila de Zaragoza",
+    "city": "Torreón",
+    "screens": 6
+  },
+  {
+    "id": "793",
+    "name": "Cinépolis Vip Cuatro Caminos",
+    "state": "Coahuila de Zaragoza",
+    "city": "Torreón",
+    "screens": 6
+  },
+  {
+    "id": "71",
+    "name": "Cinépolis Galerías Laguna",
+    "state": "Coahuila de Zaragoza",
+    "city": "Torreón",
+    "screens": 14
+  },
+  {
+    "id": "73",
+    "name": "Cinépolis Zentralia",
+    "state": "Colima",
+    "city": "Colima",
+    "screens": 13
+  },
+  {
+    "id": "449",
+    "name": "Cinépolis San Fernando",
+    "state": "Colima",
+    "city": "Colima",
+    "screens": 7
+  },
+  {
+    "id": "74",
+    "name": "Cinépolis Salagua",
+    "state": "Colima",
+    "city": "Manzanillo",
+    "screens": 9
+  },
+  {
+    "id": "989",
+    "name": "Cinépolis Punto Bahía",
+    "state": "Colima",
+    "city": "Manzanillo",
+    "screens": 7
+  },
+  {
+    "id": "949",
+    "name": "Cinépolis Tecomán",
+    "state": "Colima",
+    "city": "Tecomán",
+    "screens": 5
+  },
+  {
+    "id": "539",
+    "name": "Cinépolis Plaza las Flores Comitán",
+    "state": "Chiapas",
+    "city": "Comitán de Domínguez",
+    "screens": 7
+  },
+  {
+    "id": "52",
+    "name": "Cinépolis San Cristóbal",
+    "state": "Chiapas",
+    "city": "San Cristóbal de las Casas",
+    "screens": 10
+  },
+  {
+    "id": "53",
+    "name": "Cinépolis Tapachula",
+    "state": "Chiapas",
+    "city": "Tapachula",
+    "screens": 10
+  },
+  {
+    "id": "54",
+    "name": "Cinépolis Galerías Tapachula",
+    "state": "Chiapas",
+    "city": "Tapachula",
+    "screens": 10
+  },
+  {
+    "id": "558",
+    "name": "Cinépolis Plaza las Flores",
+    "state": "Chiapas",
+    "city": "Tonalá",
+    "screens": 6
+  },
+  {
+    "id": "55",
+    "name": "Cinépolis Plaza las Américas",
+    "state": "Chiapas",
+    "city": "Tuxtla Gutiérrez",
+    "screens": 10
+  },
+  {
+    "id": "57",
+    "name": "Cinépolis Poliforum",
+    "state": "Chiapas",
+    "city": "Tuxtla Gutiérrez",
+    "screens": 14
+  },
+  {
+    "id": "1097",
+    "name": "Cinépolis Plaza Camargo",
+    "state": "Chihuahua",
+    "city": "Camargo",
+    "screens": 5
+  },
+  {
+    "id": "50",
+    "name": "Cinépolis Cuauhtémoc",
+    "state": "Chihuahua",
+    "city": "Cuauhtémoc",
+    "screens": 8
+  },
+  {
+    "id": "49",
+    "name": "Cinépolis Chihuahua Av. Vallarta",
+    "state": "Chihuahua",
+    "city": "Chihuahua",
+    "screens": 14
+  },
+  {
+    "id": "48",
+    "name": "Cinépolis Fashion Mall",
+    "state": "Chihuahua",
+    "city": "Chihuahua",
+    "screens": 12
+  },
+  {
+    "id": "44",
+    "name": "Cinépolis VIP Fashion Mall",
+    "state": "Chihuahua",
+    "city": "Chihuahua",
+    "screens": 6
+  },
+  {
+    "id": "990",
+    "name": "Cinépolis Paseo Central",
+    "state": "Chihuahua",
+    "city": "Chihuahua",
+    "screens": 14
+  },
+  {
+    "id": "1159",
+    "name": "Cinépolis Paseo Nueva España",
+    "state": "Chihuahua",
+    "city": "Chihuahua",
+    "screens": 9
+  },
+  {
+    "id": "560",
+    "name": "Cinépolis Sendero Jabil Chihuahua",
+    "state": "Chihuahua",
+    "city": "Chihuahua",
+    "screens": 10
+  },
+  {
+    "id": "1135",
+    "name": "Cinépolis Delicias",
+    "state": "Chihuahua",
+    "city": "Delicias",
+    "screens": 5
+  },
+  {
+    "id": "563",
+    "name": "Cinépolis Escala Parral",
+    "state": "Chihuahua",
+    "city": "Hidalgo del Parral",
+    "screens": 7
+  },
+  {
+    "id": "955",
+    "name": "Cinépolis Jiménez Chihuahua",
+    "state": "Chihuahua",
+    "city": "Jiménez",
+    "screens": 5
+  },
+  {
+    "id": "42",
+    "name": "Cinépolis Plaza Sendero Las Torres",
+    "state": "Chihuahua",
+    "city": "Juárez",
+    "screens": 16
+  },
+  {
+    "id": "36",
+    "name": "Cinépolis Sendero Ciudad Juárez",
+    "state": "Chihuahua",
+    "city": "Juárez",
+    "screens": 10
+  },
+  {
+    "id": "995",
+    "name": "Cinépolis La Monumental",
+    "state": "Chihuahua",
+    "city": "Juárez",
+    "screens": 7
+  },
+  {
+    "id": "43",
+    "name": "Cinépolis VIP Las Misiones",
+    "state": "Chihuahua",
+    "city": "Juárez",
+    "screens": 8
+  },
+  {
+    "id": "1140",
+    "name": "Cinépolis Pinocelli",
+    "state": "Chihuahua",
+    "city": "Juárez",
+    "screens": 5
+  },
+  {
+    "id": "41",
+    "name": "Cinépolis Las Misiones",
+    "state": "Chihuahua",
+    "city": "Juárez",
+    "screens": 16
+  },
+  {
+    "id": "40",
+    "name": "Cinépolis Gran Patio Zaragoza",
+    "state": "Chihuahua",
+    "city": "Juárez",
+    "screens": 5
+  },
+  {
+    "id": "566",
+    "name": "Cinépolis Las Américas Juárez",
+    "state": "Chihuahua",
+    "city": "Juárez",
+    "screens": 5
+  },
+  {
+    "id": "459",
+    "name": "Cinépolis Plaza Parque Jardín",
+    "state": "Ciudad de México",
+    "city": "Azcapotzalco",
+    "screens": 8
+  },
+  {
+    "id": "458",
+    "name": "Cinépolis VIP Vía Vallejo",
+    "state": "Ciudad de México",
+    "city": "Azcapotzalco",
+    "screens": 4
+  },
+  {
+    "id": "457",
+    "name": "Cinépolis Vía Vallejo",
+    "state": "Ciudad de México",
+    "city": "Azcapotzalco",
+    "screens": 10
+  },
+  {
+    "id": "1102",
+    "name": "Cinépolis Plaza Cuitláhuac",
+    "state": "Ciudad de México",
+    "city": "Azcapotzalco",
+    "screens": 7
+  },
+  {
+    "id": "456",
+    "name": "Cinépolis Town Center El Rosario",
+    "state": "Ciudad de México",
+    "city": "Azcapotzalco",
+    "screens": 16
+  },
+  {
+    "id": "88",
+    "name": "Cinépolis VIP Perisur",
+    "state": "Ciudad de México",
+    "city": "Coyoacán",
+    "screens": 4
+  },
+  {
+    "id": "580",
+    "name": "Cinépolis Copilco",
+    "state": "Ciudad de México",
+    "city": "Coyoacán",
+    "screens": 10
+  },
+  {
+    "id": "466",
+    "name": "Cinépolis VIP Oasis Coyoacán",
+    "state": "Ciudad de México",
+    "city": "Coyoacán",
+    "screens": 4
+  },
+  {
+    "id": "91",
+    "name": "Cinépolis Miramontes",
+    "state": "Ciudad de México",
+    "city": "Coyoacán",
+    "screens": 15
+  },
+  {
+    "id": "17",
+    "name": "Cinépolis Oasis Coyoacán",
+    "state": "Ciudad de México",
+    "city": "Coyoacán",
+    "screens": 8
+  },
+  {
+    "id": "92",
+    "name": "Cinépolis Perisur",
+    "state": "Ciudad de México",
+    "city": "Coyoacán",
+    "screens": 18
+  },
+  {
+    "id": "93",
+    "name": "Cinépolis VIP Paseo Arcos Bosques",
+    "state": "Ciudad de México",
+    "city": "Cuajimalpa de Morelos",
+    "screens": 12
+  },
+  {
+    "id": "1071",
+    "name": "Cinépolis Vista Norte",
+    "state": "Ciudad de México",
+    "city": "Gustavo A. Madero",
+    "screens": 7
+  },
+  {
+    "id": "839",
+    "name": "Cinépolis VIP Encuentro Fortuna",
+    "state": "Ciudad de México",
+    "city": "Gustavo A. Madero",
+    "screens": 4
+  },
+  {
+    "id": "576",
+    "name": "Cinépolis Encuentro Fortuna",
+    "state": "Ciudad de México",
+    "city": "Gustavo A. Madero",
+    "screens": 8
+  },
+  {
+    "id": "112",
+    "name": "Cinépolis Torres Lindavista",
+    "state": "Ciudad de México",
+    "city": "Gustavo A. Madero",
+    "screens": 10
+  },
+  {
+    "id": "106",
+    "name": "Cinépolis Plaza Tepeyac",
+    "state": "Ciudad de México",
+    "city": "Gustavo A. Madero",
+    "screens": 6
+  },
+  {
+    "id": "113",
+    "name": "Cinépolis Plaza Oriente",
+    "state": "Ciudad de México",
+    "city": "Gustavo A. Madero",
+    "screens": 4
+  },
+  {
+    "id": "1122",
+    "name": "Cinépolis Viaducto",
+    "state": "Ciudad de México",
+    "city": "Iztacalco",
+    "screens": 0
+  },
+  {
+    "id": "1038",
+    "name": "Cinépolis Xtreme Churubusco",
+    "state": "Ciudad de México",
+    "city": "Iztapalapa",
+    "screens": 3
+  },
+  {
+    "id": "187",
+    "name": "Cinépolis Ermita",
+    "state": "Ciudad de México",
+    "city": "Iztapalapa",
+    "screens": 12
+  },
+  {
+    "id": "120",
+    "name": "Cinépolis Plaza Central",
+    "state": "Ciudad de México",
+    "city": "Iztapalapa",
+    "screens": 16
+  },
+  {
+    "id": "960",
+    "name": "Cinépolis Las Antenas",
+    "state": "Ciudad de México",
+    "city": "Iztapalapa",
+    "screens": 12
+  },
+  {
+    "id": "114",
+    "name": "Cinépolis Portal Churubusco",
+    "state": "Ciudad de México",
+    "city": "Iztapalapa",
+    "screens": 10
+  },
+  {
+    "id": "433",
+    "name": "Cinépolis VIP Samara",
+    "state": "Ciudad de México",
+    "city": "Álvaro Obregón",
+    "screens": 9
+  },
+  {
+    "id": "1149",
+    "name": "Cinépolis Portal Centenario",
+    "state": "Ciudad de México",
+    "city": "Álvaro Obregón",
+    "screens": 10
+  },
+  {
+    "id": "432",
+    "name": "Cinépolis Patio Santa Fe",
+    "state": "Ciudad de México",
+    "city": "Álvaro Obregón",
+    "screens": 12
+  },
+  {
+    "id": "579",
+    "name": "Cinépolis Portal San Ángel",
+    "state": "Ciudad de México",
+    "city": "Álvaro Obregón",
+    "screens": 12
+  },
+  {
+    "id": "578",
+    "name": "Cinépolis VIP Portal San Ángel",
+    "state": "Ciudad de México",
+    "city": "Álvaro Obregón",
+    "screens": 4
+  },
+  {
+    "id": "1133",
+    "name": "Cinépolis Gran Terraza Coapa",
+    "state": "Ciudad de México",
+    "city": "Tlalpan",
+    "screens": 11
+  },
+  {
+    "id": "1134",
+    "name": "Cinépolis VIP Paseo Acoxpa",
+    "state": "Ciudad de México",
+    "city": "Tlalpan",
+    "screens": 4
+  },
+  {
+    "id": "129",
+    "name": "Cinépolis Ajusco",
+    "state": "Ciudad de México",
+    "city": "Tlalpan",
+    "screens": 10
+  },
+  {
+    "id": "485",
+    "name": "Cinépolis Pabellón Cuemanco",
+    "state": "Ciudad de México",
+    "city": "Tlalpan",
+    "screens": 8
+  },
+  {
+    "id": "1152",
+    "name": "Cinépolis VIP Gran Terraza Coapa",
+    "state": "Ciudad de México",
+    "city": "Tlalpan",
+    "screens": 11
+  },
+  {
+    "id": "484",
+    "name": "Cinépolis Paseo Acoxpa",
+    "state": "Ciudad de México",
+    "city": "Tlalpan",
+    "screens": 12
+  },
+  {
+    "id": "961",
+    "name": "Cinépolis Patio Tlalpan",
+    "state": "Ciudad de México",
+    "city": "Tlalpan",
+    "screens": 10
+  },
+  {
+    "id": "464",
+    "name": "Cinépolis VIP Universidad",
+    "state": "Ciudad de México",
+    "city": "Benito Juárez",
+    "screens": 8
+  },
+  {
+    "id": "463",
+    "name": "Cinépolis Patio Universidad",
+    "state": "Ciudad de México",
+    "city": "Benito Juárez",
+    "screens": 10
+  },
+  {
+    "id": "87",
+    "name": "Cinépolis Universidad",
+    "state": "Ciudad de México",
+    "city": "Benito Juárez",
+    "screens": 17
+  },
+  {
+    "id": "101",
+    "name": "Cinépolis Diana",
+    "state": "Ciudad de México",
+    "city": "Cuauhtémoc",
+    "screens": 8
+  },
+  {
+    "id": "1055",
+    "name": "Cinépolis Plaza Tlatelolco",
+    "state": "Ciudad de México",
+    "city": "Cuauhtémoc",
+    "screens": 5
+  },
+  {
+    "id": "469",
+    "name": "Cinépolis Fórum Buenavista",
+    "state": "Ciudad de México",
+    "city": "Cuauhtémoc",
+    "screens": 16
+  },
+  {
+    "id": "1172",
+    "name": "Cinépolis Puerta Tlatelolco",
+    "state": "Ciudad de México",
+    "city": "Cuauhtémoc",
+    "screens": 0
+  },
+  {
+    "id": "98",
+    "name": "Cinépolis Bucareli",
+    "state": "Ciudad de México",
+    "city": "Cuauhtémoc",
+    "screens": 6
+  },
+  {
+    "id": "477",
+    "name": "Cinépolis VIP Miyana Polanco",
+    "state": "Ciudad de México",
+    "city": "Miguel Hidalgo",
+    "screens": 7
+  },
+  {
+    "id": "479",
+    "name": "Cinépolis Plaza Carso",
+    "state": "Ciudad de México",
+    "city": "Miguel Hidalgo",
+    "screens": 5
+  },
+  {
+    "id": "478",
+    "name": "Cinépolis VIP Plaza Carso",
+    "state": "Ciudad de México",
+    "city": "Miguel Hidalgo",
+    "screens": 4
+  },
+  {
+    "id": "998",
+    "name": "Cinépolis Ánfora",
+    "state": "Ciudad de México",
+    "city": "Venustiano Carranza",
+    "screens": 7
+  },
+  {
+    "id": "133",
+    "name": "Cinépolis Plaza Aeropuerto",
+    "state": "Ciudad de México",
+    "city": "Venustiano Carranza",
+    "screens": 11
+  },
+  {
+    "id": "1137",
+    "name": "Cinépolis Guadiana",
+    "state": "Durango",
+    "city": "Durango",
+    "screens": 7
+  },
+  {
+    "id": "498",
+    "name": "Cinépolis Chedraui Durango",
+    "state": "Durango",
+    "city": "Durango",
+    "screens": 5
+  },
+  {
+    "id": "1103",
+    "name": "Cinépolis San Antonio Gómez Palacio",
+    "state": "Durango",
+    "city": "Gómez Palacio",
+    "screens": 5
+  },
+  {
+    "id": "1078",
+    "name": "Cinépolis Plaza Acámbaro",
+    "state": "Guanajuato",
+    "city": "Acámbaro",
+    "screens": 5
+  },
+  {
+    "id": "199",
+    "name": "Cinépolis Parque Celaya",
+    "state": "Guanajuato",
+    "city": "Celaya",
+    "screens": 12
+  },
+  {
+    "id": "591",
+    "name": "Cinépolis Galerías Celaya",
+    "state": "Guanajuato",
+    "city": "Celaya",
+    "screens": 10
+  },
+  {
+    "id": "806",
+    "name": "Cinépolis Paseo Dolores",
+    "state": "Guanajuato",
+    "city": "Dolores Hidalgo Cuna de la Independencia Nacional",
+    "screens": 5
+  },
+  {
+    "id": "202",
+    "name": "Cinépolis Plaza Cibeles",
+    "state": "Guanajuato",
+    "city": "Irapuato",
+    "screens": 15
+  },
+  {
+    "id": "807",
+    "name": "Cinépolis VIP Plaza Cibeles Irapuato",
+    "state": "Guanajuato",
+    "city": "Irapuato",
+    "screens": 4
+  },
+  {
+    "id": "204",
+    "name": "Cinépolis León",
+    "state": "Guanajuato",
+    "city": "León",
+    "screens": 7
+  },
+  {
+    "id": "1165",
+    "name": "Cinépolis Paseo Morelos",
+    "state": "Guanajuato",
+    "city": "León",
+    "screens": 5
+  },
+  {
+    "id": "521",
+    "name": "Cinépolis Centro Comercial Altacia",
+    "state": "Guanajuato",
+    "city": "León",
+    "screens": 10
+  },
+  {
+    "id": "207",
+    "name": "Cinépolis Centro Max",
+    "state": "Guanajuato",
+    "city": "León",
+    "screens": 17
+  },
+  {
+    "id": "1016",
+    "name": "Cinépolis Hilamas",
+    "state": "Guanajuato",
+    "city": "León",
+    "screens": 5
+  },
+  {
+    "id": "809",
+    "name": "Cinépolis VIP Centro Comercial Altacia",
+    "state": "Guanajuato",
+    "city": "León",
+    "screens": 4
+  },
+  {
+    "id": "205",
+    "name": "Cinépolis Galerías Las Torres",
+    "state": "Guanajuato",
+    "city": "León",
+    "screens": 12
+  },
+  {
+    "id": "208",
+    "name": "Cinépolis La Gran Plaza",
+    "state": "Guanajuato",
+    "city": "León",
+    "screens": 10
+  },
+  {
+    "id": "596",
+    "name": "Cinépolis Galerías Salamanca",
+    "state": "Guanajuato",
+    "city": "Salamanca",
+    "screens": 7
+  },
+  {
+    "id": "522",
+    "name": "Cinépolis Paseo San Francisco",
+    "state": "Guanajuato",
+    "city": "San Francisco del Rincón",
+    "screens": 6
+  },
+  {
+    "id": "550",
+    "name": "Cinépolis La Joya",
+    "state": "Guanajuato",
+    "city": "Silao de la Victoria",
+    "screens": 6
+  },
+  {
+    "id": "212",
+    "name": "Cinépolis Galerías Metropolitana",
+    "state": "Guanajuato",
+    "city": "Uriangato",
+    "screens": 7
+  },
+  {
+    "id": "189",
+    "name": "Cinépolis La Isla",
+    "state": "Guerrero",
+    "city": "Acapulco de Juárez",
+    "screens": 6
+  },
+  {
+    "id": "190",
+    "name": "Cinépolis Galerías Acapulco",
+    "state": "Guerrero",
+    "city": "Acapulco de Juárez",
+    "screens": 11
+  },
+  {
+    "id": "445",
+    "name": "Cinépolis Acapulco Renacimiento",
+    "state": "Guerrero",
+    "city": "Acapulco de Juárez",
+    "screens": 10
+  },
+  {
+    "id": "444",
+    "name": "Cinépolis Galerías Diana Acapulco",
+    "state": "Guerrero",
+    "city": "Acapulco de Juárez",
+    "screens": 12
+  },
+  {
+    "id": "192",
+    "name": "Cinépolis Pie de la Cuesta",
+    "state": "Guerrero",
+    "city": "Acapulco de Juárez",
+    "screens": 12
+  },
+  {
+    "id": "194",
+    "name": "Cinépolis Patio Acapulco",
+    "state": "Guerrero",
+    "city": "Acapulco de Juárez",
+    "screens": 8
+  },
+  {
+    "id": "193",
+    "name": "Cinépolis VIP Galerías Diana Acapulco",
+    "state": "Guerrero",
+    "city": "Acapulco de Juárez",
+    "screens": 4
+  },
+  {
+    "id": "195",
+    "name": "Cinépolis Galerías Chilpancingo",
+    "state": "Guerrero",
+    "city": "Chilpancingo de los Bravo",
+    "screens": 7
+  },
+  {
+    "id": "1161",
+    "name": "Cinépolis Plaza Chilpancingo",
+    "state": "Guerrero",
+    "city": "Chilpancingo de los Bravo",
+    "screens": 6
+  },
+  {
+    "id": "197",
+    "name": "Cinépolis Galerías Tamarindos",
+    "state": "Guerrero",
+    "city": "Iguala de la Independencia",
+    "screens": 7
+  },
+  {
+    "id": "1176",
+    "name": "Cinépolis Ometepec",
+    "state": "Guerrero",
+    "city": "Ometepec",
+    "screens": 5
+  },
+  {
+    "id": "441",
+    "name": "Cinépolis Las Américas Taxco",
+    "state": "Guerrero",
+    "city": "Taxco de Alarcón",
+    "screens": 5
+  },
+  {
+    "id": "216",
+    "name": "Cinépolis VIP Galerías Pachuca",
+    "state": "Hidalgo",
+    "city": "Pachuca de Soto",
+    "screens": 4
+  },
+  {
+    "id": "574",
+    "name": "Cinépolis Galerías",
+    "state": "Hidalgo",
+    "city": "Pachuca de Soto",
+    "screens": 15
+  },
+  {
+    "id": "213",
+    "name": "Cinépolis Plaza Bella",
+    "state": "Hidalgo",
+    "city": "Pachuca de Soto",
+    "screens": 7
+  },
+  {
+    "id": "1052",
+    "name": "Cinépolis Vértice Pachuca",
+    "state": "Hidalgo",
+    "city": "Pachuca de Soto",
+    "screens": 7
+  },
+  {
+    "id": "217",
+    "name": "Cinépolis Tepeji del Río",
+    "state": "Hidalgo",
+    "city": "Tepeji del Río de Ocampo",
+    "screens": 6
+  },
+  {
+    "id": "1141",
+    "name": "Cinepolis Tizayuca",
+    "state": "Hidalgo",
+    "city": "Tizayuca",
+    "screens": 7
+  },
+  {
+    "id": "813",
+    "name": "Cinépolis Galerías Metropolitana Autlán",
+    "state": "Jalisco",
+    "city": "Autlán de Navarro",
+    "screens": 5
+  },
+  {
+    "id": "1101",
+    "name": "Cinépolis Ciudad Guzmán",
+    "state": "Jalisco",
+    "city": "Zapotlán el Grande",
+    "screens": 5
+  },
+  {
+    "id": "1062",
+    "name": "Cinépolis Plaza México",
+    "state": "Jalisco",
+    "city": "Guadalajara",
+    "screens": 4
+  },
+  {
+    "id": "493",
+    "name": "Cinépolis Fórum Tlaquepaque",
+    "state": "Jalisco",
+    "city": "Guadalajara",
+    "screens": 16
+  },
+  {
+    "id": "222",
+    "name": "Cinépolis Independencia",
+    "state": "Jalisco",
+    "city": "Guadalajara",
+    "screens": 6
+  },
+  {
+    "id": "224",
+    "name": "Cinépolis Alameda Guadalajara",
+    "state": "Jalisco",
+    "city": "Guadalajara",
+    "screens": 7
+  },
+  {
+    "id": "221",
+    "name": "Cinépolis Tolsá",
+    "state": "Jalisco",
+    "city": "Guadalajara",
+    "screens": 7
+  },
+  {
+    "id": "223",
+    "name": "Cinépolis La Normal",
+    "state": "Jalisco",
+    "city": "Guadalajara",
+    "screens": 6
+  },
+  {
+    "id": "238",
+    "name": "Cinépolis Pabellón",
+    "state": "Jalisco",
+    "city": "Guadalajara",
+    "screens": 17
+  },
+  {
+    "id": "964",
+    "name": "Cinépolis VIP Midtown Jalisco",
+    "state": "Jalisco",
+    "city": "Guadalajara",
+    "screens": 8
+  },
+  {
+    "id": "227",
+    "name": "Cinépolis Centro Magno",
+    "state": "Jalisco",
+    "city": "Guadalajara",
+    "screens": 19
+  },
+  {
+    "id": "1033",
+    "name": "Cinépolis Punto Oriente",
+    "state": "Jalisco",
+    "city": "Guadalajara",
+    "screens": 5
+  },
+  {
+    "id": "225",
+    "name": "Cinépolis Arboledas",
+    "state": "Jalisco",
+    "city": "Guadalajara",
+    "screens": 10
+  },
+  {
+    "id": "612",
+    "name": "Cinépolis Oblatos",
+    "state": "Jalisco",
+    "city": "Guadalajara",
+    "screens": 10
+  },
+  {
+    "id": "220",
+    "name": "Cinépolis Las Torres",
+    "state": "Jalisco",
+    "city": "Guadalajara",
+    "screens": 4
+  },
+  {
+    "id": "603",
+    "name": "Cinépolis VIP La Isla Puerto Vallarta",
+    "state": "Jalisco",
+    "city": "Puerto Vallarta",
+    "screens": 4
+  },
+  {
+    "id": "231",
+    "name": "Cinépolis Puerto Vallarta",
+    "state": "Jalisco",
+    "city": "Puerto Vallarta",
+    "screens": 14
+  },
+  {
+    "id": "815",
+    "name": "Cinépolis Multicenter El Salto",
+    "state": "Jalisco",
+    "city": "El Salto",
+    "screens": 5
+  },
+  {
+    "id": "1147",
+    "name": "Cinépolis Argania",
+    "state": "Jalisco",
+    "city": "San Juan de los Lagos",
+    "screens": 5
+  },
+  {
+    "id": "1166",
+    "name": "Cinépolis Plaza Sayula",
+    "state": "Jalisco",
+    "city": "Sayula",
+    "screens": 0
+  },
+  {
+    "id": "602",
+    "name": "Cinépolis Punto La Gloria",
+    "state": "Jalisco",
+    "city": "Tepatitlán de Morelos",
+    "screens": 5
+  },
+  {
+    "id": "1018",
+    "name": "Cinépolis Plaza Chedraui Tlajomulco",
+    "state": "Jalisco",
+    "city": "Tlajomulco de Zúñiga",
+    "screens": 5
+  },
+  {
+    "id": "1171",
+    "name": "Cinépolis VIP Galerías Santa Anita",
+    "state": "Jalisco",
+    "city": "Tlajomulco de Zúñiga",
+    "screens": 0
+  },
+  {
+    "id": "1169",
+    "name": "Cinépolis VIP Punto Sur",
+    "state": "Jalisco",
+    "city": "Tlajomulco de Zúñiga",
+    "screens": 0
+  },
+  {
+    "id": "1151",
+    "name": "Cinépolis Multiplaza del Valle Tlajomulco",
+    "state": "Jalisco",
+    "city": "Tlajomulco de Zúñiga",
+    "screens": 5
+  },
+  {
+    "id": "1114",
+    "name": "Cinépolis Galerías Santa Anita",
+    "state": "Jalisco",
+    "city": "Tlajomulco de Zúñiga",
+    "screens": 12
+  },
+  {
+    "id": "1124",
+    "name": "Cinépolis Punto Sur",
+    "state": "Jalisco",
+    "city": "Tlajomulco de Zúñiga",
+    "screens": 8
+  },
+  {
+    "id": "1025",
+    "name": "Cinépolis La Rioja Urban Center",
+    "state": "Jalisco",
+    "city": "Tlajomulco de Zúñiga",
+    "screens": 7
+  },
+  {
+    "id": "235",
+    "name": "Cinépolis Centro Sur",
+    "state": "Jalisco",
+    "city": "San Pedro Tlaquepaque",
+    "screens": 15
+  },
+  {
+    "id": "236",
+    "name": "Cinépolis Plaza Río Nilo",
+    "state": "Jalisco",
+    "city": "Tonalá",
+    "screens": 12
+  },
+  {
+    "id": "245",
+    "name": "Cinépolis La Gran Plaza",
+    "state": "Jalisco",
+    "city": "Zapopan",
+    "screens": 14
+  },
+  {
+    "id": "607",
+    "name": "Cinépolis Real Center",
+    "state": "Jalisco",
+    "city": "Zapopan",
+    "screens": 9
+  },
+  {
+    "id": "1104",
+    "name": "Cinépolis VIP La Perla",
+    "state": "Jalisco",
+    "city": "Zapopan",
+    "screens": 6
+  },
+  {
+    "id": "605",
+    "name": "Cinépolis VIP Gran Plaza",
+    "state": "Jalisco",
+    "city": "Zapopan",
+    "screens": 14
+  },
+  {
+    "id": "244",
+    "name": "Cinépolis Ciudadela Lifestyle Center",
+    "state": "Jalisco",
+    "city": "Zapopan",
+    "screens": 14
+  },
+  {
+    "id": "548",
+    "name": "Cinépolis Gran Terraza Belenes",
+    "state": "Jalisco",
+    "city": "Zapopan",
+    "screens": 8
+  },
+  {
+    "id": "243",
+    "name": "Cinépolis Galerías Guadalajara",
+    "state": "Jalisco",
+    "city": "Zapopan",
+    "screens": 23
+  },
+  {
+    "id": "246",
+    "name": "Cinépolis Vip Andares",
+    "state": "Jalisco",
+    "city": "Zapopan",
+    "screens": 12
+  },
+  {
+    "id": "226",
+    "name": "Cinépolis VIP Galerías",
+    "state": "Jalisco",
+    "city": "Zapopan",
+    "screens": 8
+  },
+  {
+    "id": "141",
+    "name": "Cinépolis VIP Galerías Atizapán",
+    "state": "México",
+    "city": "Atizapán de Zaragoza",
+    "screens": 4
+  },
+  {
+    "id": "137",
+    "name": "Cinépolis Galerías Atizapán",
+    "state": "México",
+    "city": "Atizapán de Zaragoza",
+    "screens": 11
+  },
+  {
+    "id": "888",
+    "name": "Cinépolis City Center Zona Esmeralda",
+    "state": "México",
+    "city": "Atizapán de Zaragoza",
+    "screens": 6
+  },
+  {
+    "id": "893",
+    "name": "Cinépolis Plaza Crystal Atizapán",
+    "state": "México",
+    "city": "Atizapán de Zaragoza",
+    "screens": 5
+  },
+  {
+    "id": "854",
+    "name": "Cinépolis Punto Atizapán",
+    "state": "México",
+    "city": "Atizapán de Zaragoza",
+    "screens": 5
+  },
+  {
+    "id": "139",
+    "name": "Cinépolis Pedregal Atizapán",
+    "state": "México",
+    "city": "Atizapán de Zaragoza",
+    "screens": 8
+  },
+  {
+    "id": "145",
+    "name": "Cinépolis Coacalco Power Center",
+    "state": "México",
+    "city": "Coacalco de Berriozábal",
+    "screens": 11
+  },
+  {
+    "id": "853",
+    "name": "Cinépolis VIP Cosmopol",
+    "state": "México",
+    "city": "Coacalco de Berriozábal",
+    "screens": 4
+  },
+  {
+    "id": "143",
+    "name": "Cinépolis Zentralia Coacalco",
+    "state": "México",
+    "city": "Coacalco de Berriozábal",
+    "screens": 8
+  },
+  {
+    "id": "850",
+    "name": "Cinépolis Cosmopol",
+    "state": "México",
+    "city": "Coacalco de Berriozábal",
+    "screens": 8
+  },
+  {
+    "id": "664",
+    "name": "Cinépolis Plaza Centella Cuautitlán",
+    "state": "México",
+    "city": "Cuautitlán",
+    "screens": 10
+  },
+  {
+    "id": "487",
+    "name": "Cinépolis Plaza Chimalhuacán",
+    "state": "México",
+    "city": "Chimalhuacán",
+    "screens": 9
+  },
+  {
+    "id": "154",
+    "name": "Cinépolis Ecatepec Las Américas",
+    "state": "México",
+    "city": "Ecatepec de Morelos",
+    "screens": 14
+  },
+  {
+    "id": "156",
+    "name": "Cinépolis Sendero Ecatepec",
+    "state": "México",
+    "city": "Ecatepec de Morelos",
+    "screens": 10
+  },
+  {
+    "id": "155",
+    "name": "Cinépolis Plaza Aragón",
+    "state": "México",
+    "city": "Ecatepec de Morelos",
+    "screens": 19
+  },
+  {
+    "id": "624",
+    "name": "Cinépolis Plaza Cañada",
+    "state": "México",
+    "city": "Huehuetoca",
+    "screens": 5
+  },
+  {
+    "id": "669",
+    "name": "Cinépolis VIP Paseo Interlomas",
+    "state": "México",
+    "city": "Huixquilucan",
+    "screens": 5
+  },
+  {
+    "id": "157",
+    "name": "Cinépolis VIP Interlomas",
+    "state": "México",
+    "city": "Huixquilucan",
+    "screens": 8
+  },
+  {
+    "id": "894",
+    "name": "Cinépolis Magno Centro Interlomas",
+    "state": "México",
+    "city": "Huixquilucan",
+    "screens": 13
+  },
+  {
+    "id": "159",
+    "name": "Cinépolis Interlomas",
+    "state": "México",
+    "city": "Huixquilucan",
+    "screens": 16
+  },
+  {
+    "id": "895",
+    "name": "Cinépolis Paseo Interlomas",
+    "state": "México",
+    "city": "Huixquilucan",
+    "screens": 10
+  },
+  {
+    "id": "163",
+    "name": "Cinépolis Sendero Ixtapaluca",
+    "state": "México",
+    "city": "Ixtapaluca",
+    "screens": 16
+  },
+  {
+    "id": "1157",
+    "name": "Cinépolis Patio Ayotla",
+    "state": "México",
+    "city": "Ixtapaluca",
+    "screens": 7
+  },
+  {
+    "id": "164",
+    "name": "Cinépolis Patio Ayotla",
+    "state": "México",
+    "city": "Ixtapaluca",
+    "screens": 7
+  },
+  {
+    "id": "1126",
+    "name": "Cinépolis Bugambilias Ixtlahuaca",
+    "state": "México",
+    "city": "Ixtlahuaca",
+    "screens": 0
+  },
+  {
+    "id": "185",
+    "name": "Cinépolis Sendero Toluca",
+    "state": "México",
+    "city": "Lerma",
+    "screens": 12
+  },
+  {
+    "id": "168",
+    "name": "Cinépolis Galerías Metepec",
+    "state": "México",
+    "city": "Metepec",
+    "screens": 17
+  },
+  {
+    "id": "690",
+    "name": "Cinépolis VIP Galerías Metepec",
+    "state": "México",
+    "city": "Metepec",
+    "screens": 4
+  },
+  {
+    "id": "169",
+    "name": "Cinépolis Hollywood",
+    "state": "México",
+    "city": "Naucalpan de Juárez",
+    "screens": 5
+  },
+  {
+    "id": "851",
+    "name": "Cinépolis VIP Parque Toreo",
+    "state": "México",
+    "city": "Naucalpan de Juárez",
+    "screens": 9
+  },
+  {
+    "id": "171",
+    "name": "Cinépolis La Cúspide",
+    "state": "México",
+    "city": "Naucalpan de Juárez",
+    "screens": 12
+  },
+  {
+    "id": "494",
+    "name": "Cinépolis Parque Toreo",
+    "state": "México",
+    "city": "Naucalpan de Juárez",
+    "screens": 13
+  },
+  {
+    "id": "892",
+    "name": "Cinépolis Satélite",
+    "state": "México",
+    "city": "Naucalpan de Juárez",
+    "screens": 15
+  },
+  {
+    "id": "889",
+    "name": "Cinépolis Gustavo Baz",
+    "state": "México",
+    "city": "Naucalpan de Juárez",
+    "screens": 7
+  },
+  {
+    "id": "178",
+    "name": "Cinépolis VIP La Cúspide",
+    "state": "México",
+    "city": "Naucalpan de Juárez",
+    "screens": 12
+  },
+  {
+    "id": "891",
+    "name": "Cinépolis VIP Plaza Satélite",
+    "state": "México",
+    "city": "Naucalpan de Juárez",
+    "screens": 7
+  },
+  {
+    "id": "173",
+    "name": "Cinépolis Nezahualcóyotl Norte",
+    "state": "México",
+    "city": "Nezahualcóyotl",
+    "screens": 12
+  },
+  {
+    "id": "174",
+    "name": "Cinépolis Nezahualcóyotl",
+    "state": "México",
+    "city": "Nezahualcóyotl",
+    "screens": 14
+  },
+  {
+    "id": "687",
+    "name": "Cinépolis Plaza Telmex",
+    "state": "México",
+    "city": "Nezahualcóyotl",
+    "screens": 17
+  },
+  {
+    "id": "704",
+    "name": "Cinépolis Town Center Nicolás Romero",
+    "state": "México",
+    "city": "Nicolás Romero",
+    "screens": 9
+  },
+  {
+    "id": "675",
+    "name": "Cinépolis Centro Tepozán",
+    "state": "México",
+    "city": "La Paz",
+    "screens": 12
+  },
+  {
+    "id": "176",
+    "name": "Cinépolis Tecámac",
+    "state": "México",
+    "city": "Tecámac",
+    "screens": 8
+  },
+  {
+    "id": "492",
+    "name": "Cinépolis Gran Patio Texcoco",
+    "state": "México",
+    "city": "Texcoco",
+    "screens": 10
+  },
+  {
+    "id": "711",
+    "name": "Cinépolis Santiago Tianguistenco",
+    "state": "México",
+    "city": "Tianguistenco",
+    "screens": 5
+  },
+  {
+    "id": "180",
+    "name": "Cinépolis Multiplaza Arboledas",
+    "state": "México",
+    "city": "Tlalnepantla de Baz",
+    "screens": 17
+  },
+  {
+    "id": "968",
+    "name": "Cinépolis Encuentro Tlalnepantla",
+    "state": "México",
+    "city": "Tlalnepantla de Baz",
+    "screens": 7
+  },
+  {
+    "id": "641",
+    "name": "Cinépolis Centro Lago de Guadalupe",
+    "state": "México",
+    "city": "Tlalnepantla de Baz",
+    "screens": 10
+  },
+  {
+    "id": "852",
+    "name": "Cinépolis Pabellón Río de los Remedios",
+    "state": "México",
+    "city": "Tlalnepantla de Baz",
+    "screens": 5
+  },
+  {
+    "id": "179",
+    "name": "Cinépolis Xtreme Las Armas",
+    "state": "México",
+    "city": "Tlalnepantla de Baz",
+    "screens": 5
+  },
+  {
+    "id": "1148",
+    "name": "Cinépolis VIP Sentura  Tlalnepantla",
+    "state": "México",
+    "city": "Tlalnepantla de Baz",
+    "screens": 4
+  },
+  {
+    "id": "183",
+    "name": "Cinépolis Grand Plaza",
+    "state": "México",
+    "city": "Toluca",
+    "screens": 7
+  },
+  {
+    "id": "1145",
+    "name": "Cinépolis Paseo Molino",
+    "state": "México",
+    "city": "Toluca",
+    "screens": 7
+  },
+  {
+    "id": "863",
+    "name": "Cinépolis Galerías Toluca",
+    "state": "México",
+    "city": "Toluca",
+    "screens": 9
+  },
+  {
+    "id": "182",
+    "name": "Cinépolis VIP Galerías Toluca",
+    "state": "México",
+    "city": "Toluca",
+    "screens": 3
+  },
+  {
+    "id": "903",
+    "name": "Cinépolis Zinacantepec",
+    "state": "México",
+    "city": "Zinacantepec",
+    "screens": 5
+  },
+  {
+    "id": "700",
+    "name": "Cinépolis Town Center Zumpango",
+    "state": "México",
+    "city": "Zumpango",
+    "screens": 11
+  },
+  {
+    "id": "645",
+    "name": "Cinépolis Perinorte",
+    "state": "México",
+    "city": "Cuautitlán Izcalli",
+    "screens": 9
+  },
+  {
+    "id": "148",
+    "name": "Cinépolis San Miguel Izcalli",
+    "state": "México",
+    "city": "Cuautitlán Izcalli",
+    "screens": 10
+  },
+  {
+    "id": "150",
+    "name": "Cinépolis Luna Parc",
+    "state": "México",
+    "city": "Cuautitlán Izcalli",
+    "screens": 10
+  },
+  {
+    "id": "890",
+    "name": "Cinépolis Izcalli",
+    "state": "México",
+    "city": "Cuautitlán Izcalli",
+    "screens": 5
+  },
+  {
+    "id": "489",
+    "name": "Cinépolis Arkana Norte",
+    "state": "México",
+    "city": "Cuautitlán Izcalli",
+    "screens": 9
+  },
+  {
+    "id": "600",
+    "name": "Cinépolis Sendero Valle de Chalco",
+    "state": "México",
+    "city": "Valle de Chalco Solidaridad",
+    "screens": 8
+  },
+  {
+    "id": "1139",
+    "name": "Cinépolis Plaza Paseo Akia Apatzingán",
+    "state": "Michoacán de Ocampo",
+    "city": "Apatzingán",
+    "screens": 7
+  },
+  {
+    "id": "754",
+    "name": "Cinépolis Plaza San Francisco",
+    "state": "Michoacán de Ocampo",
+    "city": "Hidalgo",
+    "screens": 5
+  },
+  {
+    "id": "555",
+    "name": "Cinépolis Las Américas",
+    "state": "Michoacán de Ocampo",
+    "city": "Lázaro Cárdenas",
+    "screens": 9
+  },
+  {
+    "id": "753",
+    "name": "Cinépolis Vip Las Américas Morelia",
+    "state": "Michoacán de Ocampo",
+    "city": "Morelia",
+    "screens": 4
+  },
+  {
+    "id": "248",
+    "name": "Cinépolis Morelia Centro",
+    "state": "Michoacán de Ocampo",
+    "city": "Morelia",
+    "screens": 6
+  },
+  {
+    "id": "249",
+    "name": "Cinépolis Escala La Huerta",
+    "state": "Michoacán de Ocampo",
+    "city": "Morelia",
+    "screens": 16
+  },
+  {
+    "id": "1081",
+    "name": "Cinépolis Morelia Río",
+    "state": "Michoacán de Ocampo",
+    "city": "Morelia",
+    "screens": 5
+  },
+  {
+    "id": "1117",
+    "name": "Cinépolis Patzcuaro",
+    "state": "Michoacán de Ocampo",
+    "city": "Pátzcuaro",
+    "screens": 5
+  },
+  {
+    "id": "502",
+    "name": "Cinépolis La Piedad",
+    "state": "Michoacán de Ocampo",
+    "city": "La Piedad",
+    "screens": 7
+  },
+  {
+    "id": "251",
+    "name": "Cinépolis Sahuayo",
+    "state": "Michoacán de Ocampo",
+    "city": "Sahuayo",
+    "screens": 8
+  },
+  {
+    "id": "763",
+    "name": "Cinépolis Plaza El Prado Tarímbaro",
+    "state": "Michoacán de Ocampo",
+    "city": "Tarímbaro",
+    "screens": 7
+  },
+  {
+    "id": "1153",
+    "name": "Cinépolis Uruapan Plaza 500",
+    "state": "Michoacán de Ocampo",
+    "city": "Uruapan",
+    "screens": 7
+  },
+  {
+    "id": "252",
+    "name": "Cinépolis Plaza Ágora Uruapan",
+    "state": "Michoacán de Ocampo",
+    "city": "Uruapan",
+    "screens": 11
+  },
+  {
+    "id": "253",
+    "name": "Cinépolis Plaza Ana",
+    "state": "Michoacán de Ocampo",
+    "city": "Zamora",
+    "screens": 8
+  },
+  {
+    "id": "904",
+    "name": "Cinépolis Sentura Zamora",
+    "state": "Michoacán de Ocampo",
+    "city": "Zamora",
+    "screens": 7
+  },
+  {
+    "id": "254",
+    "name": "Cinépolis Cuautla",
+    "state": "Morelos",
+    "city": "Cuautla",
+    "screens": 12
+  },
+  {
+    "id": "967",
+    "name": "Cinépolis Averanda",
+    "state": "Morelos",
+    "city": "Cuernavaca",
+    "screens": 9
+  },
+  {
+    "id": "883",
+    "name": "Cinépolis Plaza Portal D10",
+    "state": "Morelos",
+    "city": "Cuernavaca",
+    "screens": 8
+  },
+  {
+    "id": "255",
+    "name": "Cinépolis VIP Cuernavaca",
+    "state": "Morelos",
+    "city": "Cuernavaca",
+    "screens": 8
+  },
+  {
+    "id": "258",
+    "name": "Cinépolis Cuernavaca",
+    "state": "Morelos",
+    "city": "Cuernavaca",
+    "screens": 15
+  },
+  {
+    "id": "527",
+    "name": "Cinépolis Plaza Emiliano Zapata",
+    "state": "Morelos",
+    "city": "Emiliano Zapata",
+    "screens": 5
+  },
+  {
+    "id": "673",
+    "name": "Cinépolis Los Cedros Jiutepec",
+    "state": "Morelos",
+    "city": "Jiutepec",
+    "screens": 5
+  },
+  {
+    "id": "497",
+    "name": "Cinépolis Jojutla",
+    "state": "Morelos",
+    "city": "Jojutla",
+    "screens": 5
+  },
+  {
+    "id": "822",
+    "name": "Cinépolis Solaz Plaza",
+    "state": "Morelos",
+    "city": "Temixco",
+    "screens": 5
+  },
+  {
+    "id": "447",
+    "name": "Cinépolis Plaza Cantera Aguamilpa",
+    "state": "Nayarit",
+    "city": "Tepic",
+    "screens": 5
+  },
+  {
+    "id": "448",
+    "name": "Cinépolis Lago Real",
+    "state": "Nayarit",
+    "city": "Bahía de Banderas",
+    "screens": 7
+  },
+  {
+    "id": "1047",
+    "name": "Cinépolis San Vicente Las Palmas",
+    "state": "Nayarit",
+    "city": "Bahía de Banderas",
+    "screens": 5
+  },
+  {
+    "id": "1053",
+    "name": "Cinépolis Altea Huinalá",
+    "state": "Nuevo León",
+    "city": "Apodaca",
+    "screens": 7
+  },
+  {
+    "id": "735",
+    "name": "Cinépolis Sendero la Fe",
+    "state": "Nuevo León",
+    "city": "Apodaca",
+    "screens": 10
+  },
+  {
+    "id": "260",
+    "name": "Cinépolis Sendero Apodaca",
+    "state": "Nuevo León",
+    "city": "Apodaca",
+    "screens": 8
+  },
+  {
+    "id": "261",
+    "name": "Cinépolis Plaza Cadereyta",
+    "state": "Nuevo León",
+    "city": "Cadereyta Jiménez",
+    "screens": 5
+  },
+  {
+    "id": "1068",
+    "name": "Cinépolis La Plazoleta García",
+    "state": "Nuevo León",
+    "city": "García",
+    "screens": 5
+  },
+  {
+    "id": "1017",
+    "name": "Cinépolis VIP Punto Valle",
+    "state": "Nuevo León",
+    "city": "San Pedro Garza García",
+    "screens": 9
+  },
+  {
+    "id": "767",
+    "name": "Cinépolis Vip Avanta Gardens",
+    "state": "Nuevo León",
+    "city": "San Pedro Garza García",
+    "screens": 8
+  },
+  {
+    "id": "264",
+    "name": "Cinépolis Sendero Monterrey",
+    "state": "Nuevo León",
+    "city": "General Escobedo",
+    "screens": 18
+  },
+  {
+    "id": "516",
+    "name": "Cinépolis La Plazoleta",
+    "state": "Nuevo León",
+    "city": "General Zuazua",
+    "screens": 5
+  },
+  {
+    "id": "969",
+    "name": "Cinépolis Eloy Cavazos",
+    "state": "Nuevo León",
+    "city": "Guadalupe",
+    "screens": 7
+  },
+  {
+    "id": "266",
+    "name": "Cinépolis Pablo Livas",
+    "state": "Nuevo León",
+    "city": "Guadalupe",
+    "screens": 11
+  },
+  {
+    "id": "503",
+    "name": "Cinépolis Valle Soleado",
+    "state": "Nuevo León",
+    "city": "Guadalupe",
+    "screens": 10
+  },
+  {
+    "id": "275",
+    "name": "Cinépolis San Roque",
+    "state": "Nuevo León",
+    "city": "Juárez",
+    "screens": 12
+  },
+  {
+    "id": "731",
+    "name": "Cinépolis Altea Linares",
+    "state": "Nuevo León",
+    "city": "Linares",
+    "screens": 5
+  },
+  {
+    "id": "501",
+    "name": "Cinépolis Paseo Fundadores",
+    "state": "Nuevo León",
+    "city": "Montemorelos",
+    "screens": 5
+  },
+  {
+    "id": "848",
+    "name": "Cinépolis Esfera Monterrey",
+    "state": "Nuevo León",
+    "city": "Monterrey",
+    "screens": 11
+  },
+  {
+    "id": "289",
+    "name": "Cinépolis Galerías Valle Oriente",
+    "state": "Nuevo León",
+    "city": "Monterrey",
+    "screens": 19
+  },
+  {
+    "id": "1116",
+    "name": "Cinépolis Solidaridad",
+    "state": "Nuevo León",
+    "city": "Monterrey",
+    "screens": 5
+  },
+  {
+    "id": "287",
+    "name": "Cinépolis Garza Sada",
+    "state": "Nuevo León",
+    "city": "Monterrey",
+    "screens": 13
+  },
+  {
+    "id": "291",
+    "name": "Cinépolis Galerías Monterrey",
+    "state": "Nuevo León",
+    "city": "Monterrey",
+    "screens": 20
+  },
+  {
+    "id": "1168",
+    "name": "Cinépolis El Titán",
+    "state": "Nuevo León",
+    "city": "Monterrey",
+    "screens": 0
+  },
+  {
+    "id": "844",
+    "name": "Cinépolis Nuevo Sur",
+    "state": "Nuevo León",
+    "city": "Monterrey",
+    "screens": 12
+  },
+  {
+    "id": "278",
+    "name": "Cinépolis Patio Lincoln (Sendero Lincoln)",
+    "state": "Nuevo León",
+    "city": "Monterrey",
+    "screens": 10
+  },
+  {
+    "id": "849",
+    "name": "Cinépolis Adana Lincoln",
+    "state": "Nuevo León",
+    "city": "Monterrey",
+    "screens": 7
+  },
+  {
+    "id": "274",
+    "name": "Cinépolis Interplaza Monterrey",
+    "state": "Nuevo León",
+    "city": "Monterrey",
+    "screens": 6
+  },
+  {
+    "id": "290",
+    "name": "Cinépolis Cumbres Monterrey",
+    "state": "Nuevo León",
+    "city": "Monterrey",
+    "screens": 19
+  },
+  {
+    "id": "272",
+    "name": "Cinépolis Vip Galerías Valle Oriente",
+    "state": "Nuevo León",
+    "city": "Monterrey",
+    "screens": 8
+  },
+  {
+    "id": "909",
+    "name": "Cinépolis VIP Esfera Monterrey",
+    "state": "Nuevo León",
+    "city": "Monterrey",
+    "screens": 6
+  },
+  {
+    "id": "846",
+    "name": "Cinépolis Vip Nuevo Sur",
+    "state": "Nuevo León",
+    "city": "Monterrey",
+    "screens": 4
+  },
+  {
+    "id": "271",
+    "name": "Cinépolis VIP Galerías Monterrey",
+    "state": "Nuevo León",
+    "city": "Monterrey",
+    "screens": 4
+  },
+  {
+    "id": "857",
+    "name": "Cinépolis Vip Cumbres",
+    "state": "Nuevo León",
+    "city": "Monterrey",
+    "screens": 4
+  },
+  {
+    "id": "1175",
+    "name": "Cinépolis Pesquería Nuevo León",
+    "state": "Nuevo León",
+    "city": "Pesquería",
+    "screens": 5
+  },
+  {
+    "id": "292",
+    "name": "Cinépolis Xtreme Los Ángeles",
+    "state": "Nuevo León",
+    "city": "San Nicolás de los Garza",
+    "screens": 6
+  },
+  {
+    "id": "301",
+    "name": "Cinépolis Citadel",
+    "state": "Nuevo León",
+    "city": "San Nicolás de los Garza",
+    "screens": 14
+  },
+  {
+    "id": "842",
+    "name": "Cinépolis Paseo La Fe",
+    "state": "Nuevo León",
+    "city": "San Nicolás de los Garza",
+    "screens": 8
+  },
+  {
+    "id": "860",
+    "name": "Cinépolis Vip Paseo La Fe",
+    "state": "Nuevo León",
+    "city": "San Nicolás de los Garza",
+    "screens": 4
+  },
+  {
+    "id": "1057",
+    "name": "Cinépolis Almenares",
+    "state": "Nuevo León",
+    "city": "San Nicolás de los Garza",
+    "screens": 7
+  },
+  {
+    "id": "1138",
+    "name": "Cinépolis Plaza Santiago",
+    "state": "Nuevo León",
+    "city": "Santiago",
+    "screens": 5
+  },
+  {
+    "id": "305",
+    "name": "Cinépolis Oaxaca",
+    "state": "Oaxaca",
+    "city": "Oaxaca de Juárez",
+    "screens": 15
+  },
+  {
+    "id": "1155",
+    "name": "Cinépolis Los Ángeles Tuxtepec",
+    "state": "Oaxaca",
+    "city": "San Juan Bautista Tuxtepec",
+    "screens": 5
+  },
+  {
+    "id": "1084",
+    "name": "Cinépolis Puerta Huatulco",
+    "state": "Oaxaca",
+    "city": "Santa María Huatulco",
+    "screens": 5
+  },
+  {
+    "id": "1051",
+    "name": "Cinépolis Moraleda Atlixco",
+    "state": "Puebla",
+    "city": "Atlixco",
+    "screens": 7
+  },
+  {
+    "id": "970",
+    "name": "Cinépolis Las Palmas Huauchinango",
+    "state": "Puebla",
+    "city": "Huauchinango",
+    "screens": 3
+  },
+  {
+    "id": "310",
+    "name": "Cinépolis Plaza Loreto",
+    "state": "Puebla",
+    "city": "Puebla",
+    "screens": 4
+  },
+  {
+    "id": "309",
+    "name": "Cinépolis Cruz del Sur",
+    "state": "Puebla",
+    "city": "Puebla",
+    "screens": 12
+  },
+  {
+    "id": "318",
+    "name": "Cinépolis Centro Sur",
+    "state": "Puebla",
+    "city": "Puebla",
+    "screens": 12
+  },
+  {
+    "id": "319",
+    "name": "Cinépolis La Noria",
+    "state": "Puebla",
+    "city": "Puebla",
+    "screens": 12
+  },
+  {
+    "id": "629",
+    "name": "Cinépolis Galerías Serdán",
+    "state": "Puebla",
+    "city": "Puebla",
+    "screens": 10
+  },
+  {
+    "id": "1178",
+    "name": "Cinépolis Plaza Pradea Valsequillo",
+    "state": "Puebla",
+    "city": "Puebla",
+    "screens": 5
+  },
+  {
+    "id": "311",
+    "name": "Cinépolis Boulevard",
+    "state": "Puebla",
+    "city": "Puebla",
+    "screens": 9
+  },
+  {
+    "id": "1130",
+    "name": "Cinépolis San Sebastián",
+    "state": "Puebla",
+    "city": "Puebla",
+    "screens": 0
+  },
+  {
+    "id": "312",
+    "name": "Cinépolis Plaza Crystal Puebla",
+    "state": "Puebla",
+    "city": "Puebla",
+    "screens": 8
+  },
+  {
+    "id": "630",
+    "name": "Cinépolis San Jerónimo",
+    "state": "Puebla",
+    "city": "Puebla",
+    "screens": 5
+  },
+  {
+    "id": "321",
+    "name": "Cinépolis VIP Angelópolis",
+    "state": "Puebla",
+    "city": "Puebla",
+    "screens": 5
+  },
+  {
+    "id": "320",
+    "name": "Cinépolis Angelópolis",
+    "state": "Puebla",
+    "city": "Puebla",
+    "screens": 20
+  },
+  {
+    "id": "1000",
+    "name": "Cinépolis Parque Puebla",
+    "state": "Puebla",
+    "city": "Puebla",
+    "screens": 10
+  },
+  {
+    "id": "626",
+    "name": "Cinépolis Plaza San Diego",
+    "state": "Puebla",
+    "city": "San Pedro Cholula",
+    "screens": 11
+  },
+  {
+    "id": "322",
+    "name": "Cinépolis Tehuacán",
+    "state": "Puebla",
+    "city": "Tehuacán",
+    "screens": 12
+  },
+  {
+    "id": "1180",
+    "name": "Cinépolis Plaza Edén Teziutlán",
+    "state": "Puebla",
+    "city": "Teziutlán",
+    "screens": 0
+  },
+  {
+    "id": "897",
+    "name": "Cinépolis Citadina Corregidora",
+    "state": "Querétaro",
+    "city": "Corregidora",
+    "screens": 7
+  },
+  {
+    "id": "1032",
+    "name": "Cinépolis Plaza Pabellón Campestre",
+    "state": "Querétaro",
+    "city": "Corregidora",
+    "screens": 0
+  },
+  {
+    "id": "338",
+    "name": "Cinépolis Sendero Querétaro",
+    "state": "Querétaro",
+    "city": "Querétaro",
+    "screens": 12
+  },
+  {
+    "id": "333",
+    "name": "Cinépolis Plaza Las Américas",
+    "state": "Querétaro",
+    "city": "Querétaro",
+    "screens": 4
+  },
+  {
+    "id": "896",
+    "name": "Cinépolis Peñaflor",
+    "state": "Querétaro",
+    "city": "Querétaro",
+    "screens": 5
+  },
+  {
+    "id": "334",
+    "name": "Cinépolis Plaza del Parque",
+    "state": "Querétaro",
+    "city": "Querétaro",
+    "screens": 6
+  },
+  {
+    "id": "899",
+    "name": "Cinépolis La Victoria",
+    "state": "Querétaro",
+    "city": "Querétaro",
+    "screens": 10
+  },
+  {
+    "id": "434",
+    "name": "Cinépolis Esfera Querétaro",
+    "state": "Querétaro",
+    "city": "Querétaro",
+    "screens": 16
+  },
+  {
+    "id": "898",
+    "name": "Cinépolis VIP La Victoria",
+    "state": "Querétaro",
+    "city": "Querétaro",
+    "screens": 4
+  },
+  {
+    "id": "339",
+    "name": "Cinépolis Xtreme Zaragoza",
+    "state": "Querétaro",
+    "city": "Querétaro",
+    "screens": 2
+  },
+  {
+    "id": "855",
+    "name": "Cinépolis VIP Antea Querétaro",
+    "state": "Querétaro",
+    "city": "Querétaro",
+    "screens": 4
+  },
+  {
+    "id": "435",
+    "name": "Cinépolis VIP Esfera Querétaro",
+    "state": "Querétaro",
+    "city": "Querétaro",
+    "screens": 11
+  },
+  {
+    "id": "655",
+    "name": "Cinépolis Antea Querétaro",
+    "state": "Querétaro",
+    "city": "Querétaro",
+    "screens": 11
+  },
+  {
+    "id": "826",
+    "name": "Cinépolis Juriquilla Uptown",
+    "state": "Querétaro",
+    "city": "Querétaro",
+    "screens": 8
+  },
+  {
+    "id": "856",
+    "name": "Cinépolis Paseo del Río",
+    "state": "Querétaro",
+    "city": "San Juan del Río",
+    "screens": 7
+  },
+  {
+    "id": "330",
+    "name": "Cinépolis Cozumel",
+    "state": "Quintana Roo",
+    "city": "Cozumel",
+    "screens": 7
+  },
+  {
+    "id": "328",
+    "name": "Cinépolis las Américas Chetumal",
+    "state": "Quintana Roo",
+    "city": "Othón P. Blanco",
+    "screens": 13
+  },
+  {
+    "id": "614",
+    "name": "Cinépolis Plaza Las Américas Cancún",
+    "state": "Quintana Roo",
+    "city": "Benito Juárez",
+    "screens": 14
+  },
+  {
+    "id": "324",
+    "name": "Cinépolis Vip Plaza las Américas",
+    "state": "Quintana Roo",
+    "city": "Benito Juárez",
+    "screens": 7
+  },
+  {
+    "id": "326",
+    "name": "Cinépolis Cancún Mall",
+    "state": "Quintana Roo",
+    "city": "Benito Juárez",
+    "screens": 12
+  },
+  {
+    "id": "972",
+    "name": "Cinépolis Arco Norte",
+    "state": "Quintana Roo",
+    "city": "Benito Juárez",
+    "screens": 7
+  },
+  {
+    "id": "325",
+    "name": "Cinépolis Puerto Cancún",
+    "state": "Quintana Roo",
+    "city": "Benito Juárez",
+    "screens": 10
+  },
+  {
+    "id": "327",
+    "name": "Cinépolis La Gran Plaza Cancún",
+    "state": "Quintana Roo",
+    "city": "Benito Juárez",
+    "screens": 14
+  },
+  {
+    "id": "599",
+    "name": "Cinépolis Las Tiendas Cancún",
+    "state": "Quintana Roo",
+    "city": "Benito Juárez",
+    "screens": 5
+  },
+  {
+    "id": "1162",
+    "name": "Cinépolis Cancún Urban Center",
+    "state": "Quintana Roo",
+    "city": "Benito Juárez",
+    "screens": 7
+  },
+  {
+    "id": "865",
+    "name": "Cinépolis VIP Puerto Cancún",
+    "state": "Quintana Roo",
+    "city": "Benito Juárez",
+    "screens": 6
+  },
+  {
+    "id": "331",
+    "name": "Cinépolis Las Américas Playa del Carmen",
+    "state": "Quintana Roo",
+    "city": "Solidaridad",
+    "screens": 12
+  },
+  {
+    "id": "649",
+    "name": "Cinépolis VIP Plaza San Luis",
+    "state": "San Luis Potosí",
+    "city": "San Luis Potosí",
+    "screens": 4
+  },
+  {
+    "id": "901",
+    "name": "Cinépolis Macro Plaza San Luis Potosí",
+    "state": "San Luis Potosí",
+    "city": "San Luis Potosí",
+    "screens": 7
+  },
+  {
+    "id": "344",
+    "name": "Cinépolis Plaza Sendero",
+    "state": "San Luis Potosí",
+    "city": "San Luis Potosí",
+    "screens": 14
+  },
+  {
+    "id": "1072",
+    "name": "Cinépolis Vip El Dorado San Luis Potosí",
+    "state": "San Luis Potosí",
+    "city": "San Luis Potosí",
+    "screens": 4
+  },
+  {
+    "id": "343",
+    "name": "Cinépolis Plaza El Dorado",
+    "state": "San Luis Potosí",
+    "city": "San Luis Potosí",
+    "screens": 11
+  },
+  {
+    "id": "341",
+    "name": "Cinépolis Tangamanga",
+    "state": "San Luis Potosí",
+    "city": "San Luis Potosí",
+    "screens": 5
+  },
+  {
+    "id": "1179",
+    "name": "Cinépolis Plaza San Luis",
+    "state": "San Luis Potosí",
+    "city": "San Luis Potosí",
+    "screens": 12
+  },
+  {
+    "id": "657",
+    "name": "Cinépolis Plaza Citadina San Luis",
+    "state": "San Luis Potosí",
+    "city": "Soledad de Graciano Sánchez",
+    "screens": 5
+  },
+  {
+    "id": "847",
+    "name": "Cinépolis Sendero Los Mochis",
+    "state": "Sinaloa",
+    "city": "Ahome",
+    "screens": 8
+  },
+  {
+    "id": "1082",
+    "name": "Cinépolis Punto Los Mochis",
+    "state": "Sinaloa",
+    "city": "Ahome",
+    "screens": 7
+  },
+  {
+    "id": "1163",
+    "name": "Cinépolis VIP La Ceiba",
+    "state": "Sinaloa",
+    "city": "Culiacán",
+    "screens": 4
+  },
+  {
+    "id": "346",
+    "name": "Cinépolis VIP Culiacán",
+    "state": "Sinaloa",
+    "city": "Culiacán",
+    "screens": 6
+  },
+  {
+    "id": "977",
+    "name": "Cinépolis Sendero Ganadera Culiacán",
+    "state": "Sinaloa",
+    "city": "Culiacán",
+    "screens": 10
+  },
+  {
+    "id": "772",
+    "name": "Cinépolis Paseo San Isidro",
+    "state": "Sinaloa",
+    "city": "Culiacán",
+    "screens": 7
+  },
+  {
+    "id": "974",
+    "name": "Cinépolis Plaza Azahares",
+    "state": "Sinaloa",
+    "city": "Culiacán",
+    "screens": 5
+  },
+  {
+    "id": "1170",
+    "name": "Cinépolis Guasave",
+    "state": "Sinaloa",
+    "city": "Guasave",
+    "screens": 5
+  },
+  {
+    "id": "682",
+    "name": "Cinépolis Gran Plaza Mazatlán",
+    "state": "Sinaloa",
+    "city": "Mazatlán",
+    "screens": 14
+  },
+  {
+    "id": "773",
+    "name": "Cinépolis Acaya Mazatlán",
+    "state": "Sinaloa",
+    "city": "Mazatlán",
+    "screens": 10
+  },
+  {
+    "id": "697",
+    "name": "Cinépolis Santa Rosa",
+    "state": "Sinaloa",
+    "city": "Mazatlán",
+    "screens": 5
+  },
+  {
+    "id": "1010",
+    "name": "Cinépolis Caborca",
+    "state": "Sonora",
+    "city": "Caborca",
+    "screens": 5
+  },
+  {
+    "id": "358",
+    "name": "Cinépolis Bella Vista",
+    "state": "Sonora",
+    "city": "Cajeme",
+    "screens": 16
+  },
+  {
+    "id": "907",
+    "name": "Cinépolis Sendero Obregón",
+    "state": "Sonora",
+    "city": "Cajeme",
+    "screens": 10
+  },
+  {
+    "id": "752",
+    "name": "Cinépolis Galerías Mall Hermosillo",
+    "state": "Sonora",
+    "city": "Hermosillo",
+    "screens": 10
+  },
+  {
+    "id": "361",
+    "name": "Cinépolis VIP Galerías Mall Hermosillo",
+    "state": "Sonora",
+    "city": "Hermosillo",
+    "screens": 6
+  },
+  {
+    "id": "638",
+    "name": "Cinépolis Hermosillo",
+    "state": "Sonora",
+    "city": "Hermosillo",
+    "screens": 10
+  },
+  {
+    "id": "362",
+    "name": "Cinépolis Sendero Hermosillo",
+    "state": "Sonora",
+    "city": "Hermosillo",
+    "screens": 10
+  },
+  {
+    "id": "1127",
+    "name": "Cinépolis Magdalena",
+    "state": "Sonora",
+    "city": "Magdalena",
+    "screens": 0
+  },
+  {
+    "id": "364",
+    "name": "Cinépolis Nogales Mall",
+    "state": "Sonora",
+    "city": "Nogales",
+    "screens": 12
+  },
+  {
+    "id": "1164",
+    "name": "Cinépolis Puerto Peñasco",
+    "state": "Sonora",
+    "city": "Puerto Peñasco",
+    "screens": 5
+  },
+  {
+    "id": "366",
+    "name": "Cinépolis San Luis Río Colorado",
+    "state": "Sonora",
+    "city": "San Luis Río Colorado",
+    "screens": 8
+  },
+  {
+    "id": "393",
+    "name": "Cinépolis Villahermosa",
+    "state": "Tabasco",
+    "city": "Centro",
+    "screens": 15
+  },
+  {
+    "id": "392",
+    "name": "Cinépolis Las Américas",
+    "state": "Tabasco",
+    "city": "Centro",
+    "screens": 12
+  },
+  {
+    "id": "390",
+    "name": "Cinépolis VIP Villahermosa",
+    "state": "Tabasco",
+    "city": "Centro",
+    "screens": 4
+  },
+  {
+    "id": "698",
+    "name": "Cinépolis San Joaquín",
+    "state": "Tabasco",
+    "city": "Centro",
+    "screens": 5
+  },
+  {
+    "id": "701",
+    "name": "Cinépolis Sendero Villahermosa",
+    "state": "Tabasco",
+    "city": "Centro",
+    "screens": 8
+  },
+  {
+    "id": "699",
+    "name": "Cinépolis  Plaza Deportiva",
+    "state": "Tabasco",
+    "city": "Centro",
+    "screens": 8
+  },
+  {
+    "id": "705",
+    "name": "Cinépolis Comalcalco",
+    "state": "Tabasco",
+    "city": "Comalcalco",
+    "screens": 5
+  },
+  {
+    "id": "774",
+    "name": "Cinépolis Paseo Cunduacán",
+    "state": "Tabasco",
+    "city": "Cunduacán",
+    "screens": 3
+  },
+  {
+    "id": "706",
+    "name": "Cinépolis Chedrahui Macuspana",
+    "state": "Tabasco",
+    "city": "Macuspana",
+    "screens": 5
+  },
+  {
+    "id": "775",
+    "name": "Cinépolis Plaza Crystal Paraíso",
+    "state": "Tabasco",
+    "city": "Paraíso",
+    "screens": 5
+  },
+  {
+    "id": "373",
+    "name": "Cinépolis Sendero Matamoros",
+    "state": "Tamaulipas",
+    "city": "Matamoros",
+    "screens": 11
+  },
+  {
+    "id": "776",
+    "name": "Cinépolis Plaza Fiesta",
+    "state": "Tamaulipas",
+    "city": "Matamoros",
+    "screens": 15
+  },
+  {
+    "id": "377",
+    "name": "Cinépolis Paseo Reforma",
+    "state": "Tamaulipas",
+    "city": "Nuevo Laredo",
+    "screens": 14
+  },
+  {
+    "id": "374",
+    "name": "Cinépolis México Nuevo Laredo",
+    "state": "Tamaulipas",
+    "city": "Nuevo Laredo",
+    "screens": 5
+  },
+  {
+    "id": "380",
+    "name": "Cinépolis del Río Plaza Comercial",
+    "state": "Tamaulipas",
+    "city": "Reynosa",
+    "screens": 10
+  },
+  {
+    "id": "656",
+    "name": "Cinépolis Plaza Citadina",
+    "state": "Tamaulipas",
+    "city": "Reynosa",
+    "screens": 5
+  },
+  {
+    "id": "383",
+    "name": "Cinépolis Plaza Periférico",
+    "state": "Tamaulipas",
+    "city": "Reynosa",
+    "screens": 15
+  },
+  {
+    "id": "778",
+    "name": "Cinépolis VIP Plaza Periférico",
+    "state": "Tamaulipas",
+    "city": "Reynosa",
+    "screens": 8
+  },
+  {
+    "id": "717",
+    "name": "Cinépolis Altama",
+    "state": "Tamaulipas",
+    "city": "Tampico",
+    "screens": 12
+  },
+  {
+    "id": "718",
+    "name": "Cinépolis VIP  Altama",
+    "state": "Tamaulipas",
+    "city": "Tampico",
+    "screens": 4
+  },
+  {
+    "id": "389",
+    "name": "Cinépolis Tampico",
+    "state": "Tamaulipas",
+    "city": "Tampico",
+    "screens": 15
+  },
+  {
+    "id": "370",
+    "name": "Cinépolis Plaza Campestre",
+    "state": "Tamaulipas",
+    "city": "Victoria",
+    "screens": 12
+  },
+  {
+    "id": "720",
+    "name": "Cinépolis Adelitas",
+    "state": "Tamaulipas",
+    "city": "Victoria",
+    "screens": 7
+  },
+  {
+    "id": "430",
+    "name": "Cinépolis Gran Patio Tlaxcala",
+    "state": "Tlaxcala",
+    "city": "Apetatitlán de Antonio Carvajal",
+    "screens": 7
+  },
+  {
+    "id": "702",
+    "name": "Cinépolis Plaza Comercial Apizaco",
+    "state": "Tlaxcala",
+    "city": "Apizaco",
+    "screens": 7
+  },
+  {
+    "id": "1142",
+    "name": "Cinépolis Plaza Vértice Tlaxcala",
+    "state": "Tlaxcala",
+    "city": "Tlaxcala",
+    "screens": 7
+  },
+  {
+    "id": "749",
+    "name": "Cinépolis La Florida",
+    "state": "Veracruz de Ignacio de la Llave",
+    "city": "Acayucan",
+    "screens": 5
+  },
+  {
+    "id": "394",
+    "name": "Cinépolis VIP El Dorado Veracruz",
+    "state": "Veracruz de Ignacio de la Llave",
+    "city": "Boca del Río",
+    "screens": 11
+  },
+  {
+    "id": "762",
+    "name": "Cinépolis VIP Las Américas Veracruz",
+    "state": "Veracruz de Ignacio de la Llave",
+    "city": "Boca del Río",
+    "screens": 5
+  },
+  {
+    "id": "396",
+    "name": "Cinépolis Las Américas Veracruz",
+    "state": "Veracruz de Ignacio de la Llave",
+    "city": "Boca del Río",
+    "screens": 16
+  },
+  {
+    "id": "397",
+    "name": "Cinépolis Patio Coatzacoalcos",
+    "state": "Veracruz de Ignacio de la Llave",
+    "city": "Coatzacoalcos",
+    "screens": 10
+  },
+  {
+    "id": "872",
+    "name": "Cinépolis Sendero Coatzacoalcos",
+    "state": "Veracruz de Ignacio de la Llave",
+    "city": "Coatzacoalcos",
+    "screens": 8
+  },
+  {
+    "id": "929",
+    "name": "Cinépolis El Dorado Coatzacoalcos",
+    "state": "Veracruz de Ignacio de la Llave",
+    "city": "Coatzacoalcos",
+    "screens": 5
+  },
+  {
+    "id": "538",
+    "name": "Cinépolis Plaza Shangril-La",
+    "state": "Veracruz de Ignacio de la Llave",
+    "city": "Fortín",
+    "screens": 8
+  },
+  {
+    "id": "403",
+    "name": "Cinépolis Plaza Museo",
+    "state": "Veracruz de Ignacio de la Llave",
+    "city": "Xalapa",
+    "screens": 10
+  },
+  {
+    "id": "402",
+    "name": "Cinépolis Plaza Crystal",
+    "state": "Veracruz de Ignacio de la Llave",
+    "city": "Xalapa",
+    "screens": 6
+  },
+  {
+    "id": "412",
+    "name": "Cinépolis Plaza Las Américas Xalapa",
+    "state": "Veracruz de Ignacio de la Llave",
+    "city": "Xalapa",
+    "screens": 15
+  },
+  {
+    "id": "871",
+    "name": "Cinépolis VIP Las Américas Xalapa",
+    "state": "Veracruz de Ignacio de la Llave",
+    "city": "Xalapa",
+    "screens": 4
+  },
+  {
+    "id": "569",
+    "name": "Cinépolis Chedraui Martínez de la Torre",
+    "state": "Veracruz de Ignacio de la Llave",
+    "city": "Martínez de la Torre",
+    "screens": 7
+  },
+  {
+    "id": "413",
+    "name": "Cinépolis Plaza Minatitlán",
+    "state": "Veracruz de Ignacio de la Llave",
+    "city": "Minatitlán",
+    "screens": 10
+  },
+  {
+    "id": "625",
+    "name": "Cinépolis Plaza Valle Orizaba",
+    "state": "Veracruz de Ignacio de la Llave",
+    "city": "Orizaba",
+    "screens": 12
+  },
+  {
+    "id": "868",
+    "name": "Cinépolis Río Blanco",
+    "state": "Veracruz de Ignacio de la Llave",
+    "city": "Río Blanco",
+    "screens": 5
+  },
+  {
+    "id": "408",
+    "name": "Cinépolis Plaza Crystal Tuxpan",
+    "state": "Veracruz de Ignacio de la Llave",
+    "city": "Tuxpan",
+    "screens": 7
+  },
+  {
+    "id": "410",
+    "name": "Cinépolis Plaza del Puerto",
+    "state": "Veracruz de Ignacio de la Llave",
+    "city": "Veracruz",
+    "screens": 11
+  },
+  {
+    "id": "1154",
+    "name": "Cinépolis Portal Veracruz",
+    "state": "Veracruz de Ignacio de la Llave",
+    "city": "Veracruz",
+    "screens": 8
+  },
+  {
+    "id": "1015",
+    "name": "Cinépolis Gran Santa Fé Caucel",
+    "state": "Yucatán",
+    "city": "Mérida",
+    "screens": 9
+  },
+  {
+    "id": "1043",
+    "name": "Cinépolis VIP The Harbor Mérida",
+    "state": "Yucatán",
+    "city": "Mérida",
+    "screens": 4
+  },
+  {
+    "id": "415",
+    "name": "Cinépolis Vip Mérida Altabrisa",
+    "state": "Yucatán",
+    "city": "Mérida",
+    "screens": 4
+  },
+  {
+    "id": "417",
+    "name": "Cinépolis Mérida Altabrisa",
+    "state": "Yucatán",
+    "city": "Mérida",
+    "screens": 10
+  },
+  {
+    "id": "421",
+    "name": "Cinépolis Las Américas Mérida",
+    "state": "Yucatán",
+    "city": "Mérida",
+    "screens": 14
+  },
+  {
+    "id": "721",
+    "name": "Cinépolis Plaza Kukulcán",
+    "state": "Yucatán",
+    "city": "Mérida",
+    "screens": 7
+  },
+  {
+    "id": "1083",
+    "name": "Cinépolis Akrópolis",
+    "state": "Yucatán",
+    "city": "Mérida",
+    "screens": 5
+  },
+  {
+    "id": "1063",
+    "name": "Cinépolis de Harbor Mérida",
+    "state": "Yucatán",
+    "city": "Mérida",
+    "screens": 8
+  },
+  {
+    "id": "947",
+    "name": "Cinépolis La Isla Mérida",
+    "state": "Yucatán",
+    "city": "Mérida",
+    "screens": 8
+  },
+  {
+    "id": "419",
+    "name": "Cinépolis Sendero Mérida",
+    "state": "Yucatán",
+    "city": "Mérida",
+    "screens": 12
+  },
+  {
+    "id": "634",
+    "name": "Cinépolis Galerías Zacatecas",
+    "state": "Zacatecas",
+    "city": "Zacatecas",
+    "screens": 12
+  }
+]

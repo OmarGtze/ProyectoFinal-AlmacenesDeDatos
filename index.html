@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#08111f">
+    <meta name="description"
+        content="Proyecto académico de inteligencia de negocios sobre Cinépolis y la industria cinematográfica mexicana.">
+    <title>Observatorio Cine · Datos y BI</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./app.js" defer></script>
+</head>
+
+<body>
+    <a class="skip" href="#main">Saltar al contenido</a>
+    <header class="header"><a class="brand" href="#inicio"><span class="brand-icon">✳</span><span>OBSERVATORIO
+                <b>CINE</b></span></a>
+        <nav aria-label="Principal"><a href="#panorama">Panorama</a><a href="#infraestructura">Infraestructura</a><a
+                href="#mercado">Mercado</a><a href="#simulacion">Simulación</a></nav><span class="header-tag">PROYECTO
+            ACADÉMICO · 2026</span>
+    </header>
+    <main id="main">
+        <section class="hero" id="inicio">
+            <div class="hero-copy">
+                <p class="eyebrow">BUSINESS INTELLIGENCE / MÉXICO</p>
+                <h1>Los datos detrás<br>de la <em>gran pantalla.</em></h1>
+                <p class="hero-lead">Explora la presencia de Cinépolis en México y el comportamiento de la industria
+                    cinematográfica a partir de fuentes verificables.</p>
+                <div class="hero-actions"><a class="button" href="#infraestructura">Explorar datos ↗</a><a
+                        class="quiet-link" href="#metodologia">Ver metodología ↓</a></div>
+            </div>
+            <div class="hero-graphic" aria-hidden="true">
+                <div class="orbit orbit-1"></div>
+                <div class="orbit orbit-2"></div>
+                <div class="reel"><i></i><i></i><i></i><i></i><span></span></div>
+                <div class="float-tag tag-1">01 / EXHIBICIÓN</div>
+                <div class="float-tag tag-2">DATOS + CONTEXTO</div>
+            </div>
+            <div class="scroll-cue">DESLIZA PARA EXPLORAR <span>↓</span></div>
+        </section>
+        <section class="section" id="panorama">
+            <div class="section-head">
+                <div>
+                    <p class="kicker">01 / PANORAMA</p>
+                    <h2>Una historia en dos escalas.</h2>
+                </div>
+                <p>El directorio permite estudiar complejos atribuidos a Cinépolis. CANACINE describe el mercado
+                    nacional. Cada indicador conserva su fuente y alcance.</p>
+            </div>
+            <div class="overview">
+                <article class="overview-card featured"><span>A / EMPRESA</span>
+                    <h3>Infraestructura Cinépolis</h3>
+                    <p>Complejos y pantallas identificados en el directorio público del Sistema de Información Cultural.
+                    </p><a href="#infraestructura">Explorar infraestructura ↗</a>
+                </article>
+                <article class="overview-card"><span>B / INDUSTRIA</span>
+                    <h3>Mercado mexicano</h3>
+                    <p>Asistencia y taquilla nacionales reportadas por CANACINE para contextualizar la actividad
+                        cinematográfica.</p><a href="#mercado">Ver cifras de mercado ↗</a>
+                </article>
+            </div>
+        </section>
+        <section class="section data-section" id="infraestructura">
+            <div class="section-head">
+                <div>
+                    <p class="kicker">02 / INFRAESTRUCTURA</p>
+                    <h2>Cinépolis en el territorio.</h2>
+                </div>
+                <p>Explora la distribución de complejos y pantallas registrados. Los resultados aplican el criterio
+                    descrito en la metodología.</p>
+            </div>
+            <div class="metrics" aria-live="polite">
+                <article><span>COMPLEJOS IDENTIFICADOS</span><strong id="complex-count">—</strong><small
+                        id="metric-area">Directorio SIC · México</small></article>
+                <article><span>PANTALLAS REGISTRADAS</span><strong id="screen-count">—</strong><small>Sumatoria de los
+                        registros seleccionados</small></article>
+                <article><span>COBERTURA NACIONAL</span><strong id="state-count">—</strong><small>Entidades federativas
+                        con registros</small></article>
+            </div>
+            <div class="explorer">
+                <article class="panel">
+                    <div class="panel-head">
+                        <div><span>DISTRIBUCIÓN GEOGRÁFICA</span>
+                            <h3>Complejos por entidad</h3>
+                        </div><small>TOP 8</small>
+                    </div>
+                    <div id="bar-chart" class="bar-chart" role="img" aria-label="Complejos por entidad"></div>
+                </article>
+                <article class="panel">
+                    <div class="panel-head">
+                        <div><span>DIRECTORIO INTERACTIVO</span>
+                            <h3>Explorar complejos</h3>
+                        </div><small id="result-count"></small>
+                    </div>
+                    <div class="filters"><label class="sr-only" for="state-filter">Entidad</label><select
+                            id="state-filter">
+                            <option value="">Todas las entidades</option>
+                        </select><label class="sr-only" for="search-filter">Buscar</label><input id="search-filter"
+                            type="search" placeholder="Buscar complejo o ciudad…"></div>
+                    <div class="table-wrap">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Complejo</th>
+                                    <th>Entidad</th>
+                                    <th>Pantallas</th>
+                                </tr>
+                            </thead>
+                            <tbody id="complex-table">
+                                <tr>
+                                    <td colspan="3">Cargando directorio…</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="section market-section" id="mercado">
+            <div class="section-head">
+                <div>
+                    <p class="kicker">03 / MERCADO</p>
+                    <h2>El contexto nacional.</h2>
+                </div>
+                <p>Indicadores de toda la industria cinematográfica mexicana en 2025. No representan ventas ni
+                    asistencia propias de Cinépolis.</p>
+            </div>
+            <div class="market-grid">
+                <article class="market-feature"><span>CANACINE / 2025</span>
+                    <div><strong>203 <small>millones</small></strong>
+                        <h3>boletos vendidos en México</h3>
+                        <p>6.86 % menos que en 2024.</p>
+                    </div><b aria-hidden="true">↘</b>
+                </article>
+                <article class="market-stat"><span>TAQUILLA NACIONAL</span><strong>$14,983 <small>MDP</small></strong>
+                    <p>Ingresos de exhibición en México durante 2025.</p>
+                </article>
+                <article class="market-stat"><span>ASISTENCIA ANUAL</span><strong>1.5 <small>veces</small></strong>
+                    <p>Promedio por habitante durante 2025.</p>
+                </article>
+            </div>
+            <div class="source-strip"><span>FUENTE</span>
+                <p>CANACINE, <em>Resultados de la industria cinematográfica 2025: serie histórica 2016–2025</em>. Cifras
+                    nacionales con datos de Comscore Movies.</p><a
+                    href="./Archivos/RESULTADOS-DE-LA-INDUSTRIA-CINEMATOGRAFICA.SERIE-2016-2025.pptx-1.pdf"
+                    target="_blank" rel="noopener">Abrir reporte ↗</a>
+            </div>
+        </section>
+        <section class="section" id="simulacion">
+            <div class="simulation">
+                <div>
+                    <p class="kicker">04 / EN PREPARACIÓN</p>
+                    <h2>Explorar lo que podría pasar.</h2>
+                    <p>Se está diseñando un módulo para probar escenarios de concurrencia, ocupación de salas y
+                        dulcería. Sus parámetros y resultados se distinguirán de los datos observados.</p>
+                </div>
+                <div class="simulation-art" aria-hidden="true">
+                    <span></span><span></span><span></span><span></span><span></span>
+                </div>
+            </div>
+        </section>
+        <section class="section methodology" id="metodologia">
+            <div class="section-head">
+                <div>
+                    <p class="kicker">05 / METODOLOGÍA</p>
+                    <h2>De dónde salen las cifras.</h2>
+                </div>
+                <p>La trazabilidad es parte del proyecto: cada vista indica si presenta datos de Cinépolis, del sector o
+                    una futura simulación.</p>
+            </div>
+            <div class="method-grid">
+                <article><span>01</span>
+                    <h3>Directorio SIC</h3>
+                    <p>Se seleccionan filas cuyo nombre contiene “Cinépolis” (con o sin acento) y cuya adscripción es
+                        “Cinépolis de México, S.A. de C.V.”. La suma de pantallas corresponde a esas filas. Es una
+                        fotografía del directorio, no una serie histórica.</p>
+                </article>
+                <article><span>02</span>
+                    <h3>Reporte CANACINE</h3>
+                    <p>Las cifras de 2025 describen la industria mexicana completa. No se distribuyen entre complejos ni
+                        se atribuyen a una cadena.</p>
+                </article>
+                <article><span>03</span>
+                    <h3>Calidad de datos</h3>
+                    <p>Se conservan las diferencias entre fuentes. Una discrepancia detectada en el reporte mensual de
+                        2025 está pendiente de verificación.</p>
+                </article>
+            </div>
+            <p class="academic-note">Sitio académico independiente. Cinépolis es una marca registrada de sus titulares.
+                Datos utilizados con fines educativos y atribuidos a sus fuentes originales.</p>
+        </section>
+    </main>
+    <footer><span>OBSERVATORIO CINE · PROYECTO FINAL DE ALMACENES DE DATOS</span><a href="#inicio">VOLVER ARRIBA ↑</a>
+    </footer>
+</body>
+
+</html>
