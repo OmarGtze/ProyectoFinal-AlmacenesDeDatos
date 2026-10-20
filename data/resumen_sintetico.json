@@ -1,0 +1,108 @@
+{
+  "tipo_dato": "sintetico",
+  "semilla": 20261020,
+  "periodo": "2025",
+  "complejos_modelados": 477,
+  "salas_modeladas": 1402,
+  "complejos_sin_pantallas_registradas": 14,
+  "salas_modeladas_por_complejo": "entre 1 y 3",
+  "funciones_por_sala_y_dia": 3,
+  "meses": [
+    {
+      "mes": 1,
+      "funciones": 130386,
+      "boletos": 6143452,
+      "taquilla_mxn": 580601132,
+      "capacidad": 18198240,
+      "dulceria_mxn": 498153161
+    },
+    {
+      "mes": 2,
+      "funciones": 117768,
+      "boletos": 5285577,
+      "taquilla_mxn": 500821187,
+      "capacidad": 16437120,
+      "dulceria_mxn": 428658046
+    },
+    {
+      "mes": 3,
+      "funciones": 130386,
+      "boletos": 5707101,
+      "taquilla_mxn": 542532999,
+      "capacidad": 18198240,
+      "dulceria_mxn": 462633158
+    },
+    {
+      "mes": 4,
+      "funciones": 126180,
+      "boletos": 6289335,
+      "taquilla_mxn": 594724213,
+      "capacidad": 17611200,
+      "dulceria_mxn": 509560638
+    },
+    {
+      "mes": 5,
+      "funciones": 130386,
+      "boletos": 7850124,
+      "taquilla_mxn": 744182108,
+      "capacidad": 18198240,
+      "dulceria_mxn": 635710240
+    },
+    {
+      "mes": 6,
+      "funciones": 126180,
+      "boletos": 7822412,
+      "taquilla_mxn": 742237204,
+      "capacidad": 17611200,
+      "dulceria_mxn": 634288410
+    },
+    {
+      "mes": 7,
+      "funciones": 130386,
+      "boletos": 7371201,
+      "taquilla_mxn": 696603307,
+      "capacidad": 18198240,
+      "dulceria_mxn": 597559891
+    },
+    {
+      "mes": 8,
+      "funciones": 130386,
+      "boletos": 6956976,
+      "taquilla_mxn": 661494600,
+      "capacidad": 18198240,
+      "dulceria_mxn": 563837808
+    },
+    {
+      "mes": 9,
+      "funciones": 126180,
+      "boletos": 5963562,
+      "taquilla_mxn": 564073542,
+      "capacidad": 17611200,
+      "dulceria_mxn": 483310922
+    },
+    {
+      "mes": 10,
+      "funciones": 130386,
+      "boletos": 6001395,
+      "taquilla_mxn": 567333745,
+      "capacidad": 18198240,
+      "dulceria_mxn": 486277805
+    },
+    {
+      "mes": 11,
+      "funciones": 126180,
+      "boletos": 6407395,
+      "taquilla_mxn": 609847001,
+      "capacidad": 17611200,
+      "dulceria_mxn": 519141564
+    },
+    {
+      "mes": 12,
+      "funciones": 130386,
+      "boletos": 7373468,
+      "taquilla_mxn": 696847156,
+      "capacidad": 18198240,
+      "dulceria_mxn": 597848233
+    }
+  ]
+}

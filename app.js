@@ -58,3 +58,39 @@ async function load() {
   }
 }
 load();
+
+const MONTHS = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'];
+async function loadSynthetic() {
+  try {
+    const response = await fetch('./data/resumen_sintetico.json');
+    if (!response.ok) throw new Error('No se pudo abrir el resumen sintético.');
+    const model = await response.json();
+    if (model.tipo_dato !== 'sintetico') throw new Error('Tipo de datos inesperado.');
+    const months = model.meses;
+    const sum = key => months.reduce((total, month) => total + month[key], 0);
+    $('synthetic-functions').textContent = fmt.format(sum('funciones'));
+    $('synthetic-tickets').textContent = fmt.format(sum('boletos'));
+    $('synthetic-occupancy').textContent = (100 * sum('boletos') / sum('capacidad')).toLocaleString('es-MX', {maximumFractionDigits: 1}) + ' %';
+    function draw() {
+      const key = $('synthetic-view').value;
+      const title = {boletos: 'Boletos simulados por mes', taquilla_mxn: 'Taquilla simulada por mes', dulceria_mxn: 'Dulcería simulada por mes'}[key];
+      $('synthetic-chart-title').textContent = title;
+      const max = Math.max(...months.map(month => month[key]));
+      $('synthetic-chart').replaceChildren();
+      months.forEach((month, index) => {
+        const column = document.createElement('div'); column.className = 'synthetic-month';
+        const bar = document.createElement('div'); bar.className = 'synthetic-bar';
+        bar.style.height = (month[key] / max * 165) + 'px';
+        bar.title = MONTHS[index] + ': ' + (key === 'boletos' ? fmt.format(month[key]) + ' boletos' : '$' + fmt.format(month[key]) + ' MXN') + ' · dato sintético';
+        const label = document.createElement('span'); label.textContent = MONTHS[index];
+        column.append(bar, label); $('synthetic-chart').append(column);
+      });
+      $('synthetic-chart').setAttribute('aria-label', title + '. ' + months.map((month, index) => MONTHS[index] + ' ' + fmt.format(month[key])).join(', '));
+    }
+    $('synthetic-view').addEventListener('change', draw);
+    draw();
+  } catch (error) {
+    $('synthetic-chart').textContent = 'No se pudo cargar el resumen sintético. Abre el sitio mediante un servidor local.';
+  }
+}
+loadSynthetic();

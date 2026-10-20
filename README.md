@@ -22,4 +22,12 @@ El script lee `Archivos/data-2026-10-19.csv` y genera `data/complejos.json`. Sel
 
 Las cifras de 2025 de la sección Mercado proceden del PDF de CANACINE ubicado en `Archivos/`. Son cifras nacionales de toda la industria. El gráfico mensual del mismo reporte presenta una suma distinta del total anual; esa serie no se incluye hasta verificarla.
 
-El módulo de simulación está señalado como futuro. Esta versión no presenta resultados sintéticos como datos observados.
+## Generar el piloto sintético
+
+```powershell
+python scripts/generate_synthetic.py
+```
+
+El script crea `data/piloto_sintetico.sqlite` y `data/resumen_sintetico.json` para los 477 complejos seleccionados. La sección «Operación modelada» usa el resumen JSON y distingue explícitamente sus métricas inventadas de las cifras observadas. El grano de las tablas, los supuestos y las limitaciones están en [MODELO_DATOS.md](MODELO_DATOS.md).
+
+El módulo interactivo de simulación de escenarios está señalado como trabajo futuro.

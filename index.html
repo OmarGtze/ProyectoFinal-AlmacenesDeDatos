@@ -17,7 +17,7 @@
     <header class="header"><a class="brand" href="#inicio"><span class="brand-icon">✳</span><span>OBSERVATORIO
                 <b>CINE</b></span></a>
         <nav aria-label="Principal"><a href="#panorama">Panorama</a><a href="#infraestructura">Infraestructura</a><a
-                href="#mercado">Mercado</a><a href="#simulacion">Simulación</a></nav><span class="header-tag">PROYECTO
+                href="#mercado">Mercado</a><a href="#operacion">Operación modelada</a><a href="#simulacion">Simulación</a></nav><span class="header-tag">PROYECTO
             ACADÉMICO · 2026</span>
     </header>
     <main id="main">
@@ -43,10 +43,10 @@
             <div class="section-head">
                 <div>
                     <p class="kicker">01 / PANORAMA</p>
-                    <h2>Una historia en dos escalas.</h2>
+                    <h2>Tres perspectivas de datos.</h2>
                 </div>
-                <p>El directorio permite estudiar complejos atribuidos a Cinépolis. CANACINE describe el mercado
-                    nacional. Cada indicador conserva su fuente y alcance.</p>
+                <p>El directorio muestra infraestructura atribuida a Cinépolis; CANACINE describe el mercado nacional;
+                    y el piloto sintético permite ensayar indicadores operativos. Cada vista conserva su alcance.</p>
             </div>
             <div class="overview">
                 <article class="overview-card featured"><span>A / EMPRESA</span>
@@ -58,6 +58,11 @@
                     <h3>Mercado mexicano</h3>
                     <p>Asistencia y taquilla nacionales reportadas por CANACINE para contextualizar la actividad
                         cinematográfica.</p><a href="#mercado">Ver cifras de mercado ↗</a>
+                </article>
+                <article class="overview-card"><span>C / MODELO SINTÉTICO</span>
+                    <h3>Operación de ejemplo</h3>
+                    <p>Funciones, asistencia y dulcería inventadas con reglas reproducibles para ensayar análisis de BI.</p>
+                    <a href="#operacion">Explorar piloto ↗</a>
                 </article>
             </div>
         </section>
@@ -147,10 +152,30 @@
                     target="_blank" rel="noopener">Abrir reporte ↗</a>
             </div>
         </section>
+        <section class="section synthetic-section" id="operacion">
+            <div class="section-head">
+                <div><p class="kicker">04 / DATOS SINTÉTICOS</p><h2>Un piloto de operación.</h2></div>
+                <p>Modelo reproducible de los 477 complejos seleccionados del directorio. Salas, funciones, boletos y ventas de dulcería son inventados para demostrar BI; no describen la operación real de Cinépolis.</p>
+            </div>
+            <div class="synthetic-label">MODELO SINTÉTICO · 477 COMPLEJOS · 2025</div>
+            <div class="synthetic-metrics">
+                <article><span>FUNCIONES MODELADAS</span><strong id="synthetic-functions">—</strong></article>
+                <article><span>BOLETOS SIMULADOS</span><strong id="synthetic-tickets">—</strong></article>
+                <article><span>OCUPACIÓN SUPUESTA</span><strong id="synthetic-occupancy">—</strong></article>
+            </div>
+            <div class="panel synthetic-panel">
+                <div class="panel-head"><div><span>TENDENCIA MENSUAL · DATOS SINTÉTICOS</span><h3 id="synthetic-chart-title">Boletos simulados por mes</h3></div>
+                    <label class="sr-only" for="synthetic-view">Indicador</label>
+                    <select id="synthetic-view"><option value="boletos">Boletos</option><option value="taquilla_mxn">Taquilla</option><option value="dulceria_mxn">Dulcería</option></select>
+                </div>
+                <div id="synthetic-chart" class="synthetic-chart" role="img" aria-label="Gráfico mensual de datos sintéticos"></div>
+                <p class="synthetic-footnote">Generado con reglas y semilla fija. <a href="./MODELO_DATOS.md" target="_blank" rel="noopener">Consultar modelo y supuestos ↗</a></p>
+            </div>
+        </section>
         <section class="section" id="simulacion">
             <div class="simulation">
                 <div>
-                    <p class="kicker">04 / EN PREPARACIÓN</p>
+                    <p class="kicker">05 / EN PREPARACIÓN</p>
                     <h2>Explorar lo que podría pasar.</h2>
                     <p>Se está diseñando un módulo para probar escenarios de concurrencia, ocupación de salas y
                         dulcería. Sus parámetros y resultados se distinguirán de los datos observados.</p>
@@ -163,11 +188,11 @@
         <section class="section methodology" id="metodologia">
             <div class="section-head">
                 <div>
-                    <p class="kicker">05 / METODOLOGÍA</p>
+                    <p class="kicker">06 / METODOLOGÍA</p>
                     <h2>De dónde salen las cifras.</h2>
                 </div>
                 <p>La trazabilidad es parte del proyecto: cada vista indica si presenta datos de Cinépolis, del sector o
-                    una futura simulación.</p>
+                    una simulación.</p>
             </div>
             <div class="method-grid">
                 <article><span>01</span>
@@ -182,9 +207,9 @@
                         se atribuyen a una cadena.</p>
                 </article>
                 <article><span>03</span>
-                    <h3>Calidad de datos</h3>
-                    <p>Se conservan las diferencias entre fuentes. Una discrepancia detectada en el reporte mensual de
-                        2025 está pendiente de verificación.</p>
+                    <h3>Operación sintética</h3>
+                    <p>El piloto usa complejos reales del directorio, pero salas modeladas, películas ficticias y ventas
+                        generadas por supuestos. La base SQLite permite repetir la generación.</p>
                 </article>
             </div>
             <p class="academic-note">Sitio académico independiente. Cinépolis es una marca registrada de sus titulares.
