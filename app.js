@@ -1,5 +1,6 @@
 const fmt = new Intl.NumberFormat('es-MX');
 const $ = (id) => document.getElementById(id);
+const displayState = (state) => state === 'México' ? 'Estado de México' : state;
 let complexes = [];
 let selectedState = '';
 let searchText = '';
@@ -45,7 +46,7 @@ async function load() {
   try {
     const response = await fetch('./data/complejos.json');
     if (!response.ok) throw new Error('No se pudo abrir el archivo de datos.');
-    complexes = await response.json();
+    complexes = (await response.json()).map(item => ({ ...item, state: displayState(item.state) }));
     complexes.sort((a,b) => a.name.localeCompare(b.name, 'es-MX'));
     [...new Set(complexes.map(item => item.state))].sort((a,b) => a.localeCompare(b,'es-MX')).forEach(state => {
       const option = document.createElement('option'); option.value = option.textContent = state; $('state-filter').append(option);
