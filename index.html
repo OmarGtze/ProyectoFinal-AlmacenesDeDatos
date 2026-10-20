@@ -8,6 +8,7 @@
     <meta name="description"
         content="Proyecto académico de inteligencia de negocios sobre Cinépolis y la industria cinematográfica mexicana.">
     <title>Observatorio Cine · Datos y BI</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect x='4' y='15' width='32' height='21' rx='4' fill='%231f6bff' stroke='%230b1f4b' stroke-width='3'/%3E%3Cpath d='M5 9.5 33 4l1.4 7L6.4 16.5Z' fill='%23fffaf0' stroke='%230b1f4b' stroke-width='3' stroke-linejoin='round'/%3E%3C/svg%3E">
     <link rel="stylesheet" href="./styles.css">
     <script src="./app.js" defer></script>
 </head>
@@ -155,6 +156,7 @@
                 <p>Explora la distribución de complejos y pantallas registrados. Los resultados aplican el criterio
                     descrito en la metodología.</p>
             </div>
+            <p class="source-badge" data-source="sic">DATOS OBSERVADOS · DIRECTORIO SIC</p>
             <div class="metrics" aria-live="polite">
                 <article class="metric"><span>COMPLEJOS IDENTIFICADOS</span><strong id="complex-count">—</strong><small
                         id="metric-area">Directorio SIC · México</small></article>
@@ -217,17 +219,18 @@
                 <p>Indicadores de toda la industria cinematográfica mexicana en 2025. No representan ventas ni
                     asistencia propias de Cinépolis.</p>
             </div>
+            <p class="source-badge" data-source="nacional">CIFRAS NACIONALES · CANACINE · 2025</p>
             <div class="market-grid">
-                <article class="market-feature"><span>CANACINE / 2025</span>
+                <article class="market-feature"><span>BOLETOS · NACIONAL 2025</span>
                     <div><strong>203 <small>millones</small></strong>
                         <h3>boletos vendidos en México</h3>
-                        <p>6.86 % menos que en 2024.</p>
-                    </div><b aria-hidden="true">↘</b>
+                        <p><b class="trend" aria-hidden="true">↘</b> 6.86 % menos que en 2024.</p>
+                    </div>
                 </article>
                 <article class="market-stat"><span>TAQUILLA NACIONAL</span><strong>$14,983 <small>MDP</small></strong>
                     <p>Ingresos de exhibición en México durante 2025.</p>
                 </article>
-                <article class="market-stat"><span>ASISTENCIA ANUAL</span><strong>1.5 <small>veces</small></strong>
+                <article class="market-stat"><span>ASISTENCIA ANUAL · NACIONAL</span><strong>1.5 <small>veces</small></strong>
                     <p>Promedio por habitante durante 2025.</p>
                 </article>
             </div>
@@ -235,7 +238,7 @@
                 <p>CANACINE, <em>Resultados de la industria cinematográfica 2025: serie histórica 2016–2025</em>. Cifras
                     nacionales con datos de Comscore Movies.</p><a
                     href="./Archivos/RESULTADOS-DE-LA-INDUSTRIA-CINEMATOGRAFICA.SERIE-2016-2025.pptx-1.pdf"
-                    target="_blank" rel="noopener">Abrir reporte ↗</a>
+                    target="_blank" rel="noopener">Abrir reporte <span aria-hidden="true">↗</span><span class="sr-only"> (se abre en una pestaña nueva)</span></a>
             </div>
         </section>
         <section class="section synthetic-section" id="operacion">
@@ -243,19 +246,21 @@
                 <div><p class="kicker">04 / DATOS SINTÉTICOS</p><h2>Un piloto de operación.</h2></div>
                 <p>Modelo reproducible de los 477 complejos seleccionados del directorio. Salas, funciones, boletos y ventas de dulcería son inventados para demostrar BI; no describen la operación real de Cinépolis.</p>
             </div>
-            <div class="synthetic-label">MODELO SINTÉTICO · 477 COMPLEJOS · 2025</div>
+            <p class="source-badge" data-source="sintetico">MODELO SINTÉTICO · 477 COMPLEJOS · 2025</p>
             <div class="synthetic-metrics">
-                <article><span>FUNCIONES MODELADAS</span><strong id="synthetic-functions">—</strong></article>
-                <article><span>BOLETOS SIMULADOS</span><strong id="synthetic-tickets">—</strong></article>
-                <article><span>OCUPACIÓN SUPUESTA</span><strong id="synthetic-occupancy">—</strong></article>
+                <article class="metric is-synthetic"><span>FUNCIONES MODELADAS</span><strong id="synthetic-functions">—</strong></article>
+                <article class="metric is-synthetic"><span>BOLETOS SIMULADOS</span><strong id="synthetic-tickets">—</strong></article>
+                <article class="metric is-synthetic"><span>OCUPACIÓN SUPUESTA</span><strong id="synthetic-occupancy">—</strong></article>
             </div>
-            <div class="panel synthetic-panel">
+            <div class="panel synthetic-panel is-synthetic">
                 <div class="panel-head"><div><span>TENDENCIA MENSUAL · DATOS SINTÉTICOS</span><h3 id="synthetic-chart-title">Boletos simulados por mes</h3></div>
-                    <label class="sr-only" for="synthetic-view">Indicador</label>
-                    <select id="synthetic-view"><option value="boletos">Boletos</option><option value="taquilla_mxn">Taquilla</option><option value="dulceria_mxn">Dulcería</option></select>
+                    <div class="field field-inline"><label for="synthetic-view">Indicador</label>
+                        <select id="synthetic-view"><option value="boletos">Boletos</option><option value="taquilla_mxn">Taquilla</option><option value="dulceria_mxn">Dulcería</option></select></div>
                 </div>
-                <div id="synthetic-chart" class="synthetic-chart" role="img" aria-label="Gráfico mensual de datos sintéticos"></div>
-                <p class="synthetic-footnote">Generado con reglas y semilla fija. <a href="./MODELO_DATOS.md" target="_blank" rel="noopener">Consultar modelo y supuestos ↗</a></p>
+                <div id="synthetic-chart" class="synthetic-chart" role="img" aria-label="Gráfico mensual de datos sintéticos">
+                    <p class="chart-status">Cargando datos sintéticos…</p>
+                </div>
+                <p class="synthetic-footnote">Generado con reglas y semilla fija. <a href="./MODELO_DATOS.md" target="_blank" rel="noopener">Consultar modelo y supuestos <span aria-hidden="true">↗</span><span class="sr-only"> (se abre en una pestaña nueva)</span></a></p>
             </div>
         </section>
         <section class="section" id="simulacion">
@@ -267,7 +272,16 @@
                         dulcería. Sus parámetros y resultados se distinguirán de los datos observados.</p>
                 </div>
                 <div class="simulation-art" aria-hidden="true">
-                    <span></span><span></span><span></span><span></span><span></span>
+                    <svg viewBox="0 0 300 220" focusable="false">
+                        <rect class="sim-card" x="30" y="24" width="240" height="172" rx="20"/>
+                        <path class="sim-axis" d="M58 160h184"/>
+                        <path class="sim-range" d="M78 128c34-40 70-60 104-44s38 4 52-26"/>
+                        <path class="sim-line" d="M78 140c34-30 70-44 104-30s38-6 52-32"/>
+                        <path class="sim-range" d="M78 150c34-22 70-30 104-16s38-16 52-38"/>
+                        <path class="sim-slider" d="M58 56h120"/>
+                        <circle class="sim-knob" cx="130" cy="56" r="11"/>
+                        <path class="sim-spark" transform="translate(250 42)" d="M0-14Q0 0 14 0Q0 0 0 14Q0 0-14 0Q0 0 0-14Z"/>
+                    </svg>
                 </div>
             </div>
         </section>
@@ -281,18 +295,18 @@
                     una simulación.</p>
             </div>
             <div class="method-grid">
-                <article><span>01</span>
+                <article data-source="sic"><span>01 · OBSERVADO</span>
                     <h3>Directorio SIC</h3>
                     <p>Se seleccionan filas cuyo nombre contiene “Cinépolis” (con o sin acento) y cuya adscripción es
                         “Cinépolis de México, S.A. de C.V.”. La suma de pantallas corresponde a esas filas. Es una
                         fotografía del directorio, no una serie histórica.</p>
                 </article>
-                <article><span>02</span>
+                <article data-source="nacional"><span>02 · NACIONAL</span>
                     <h3>Reporte CANACINE</h3>
                     <p>Las cifras de 2025 describen la industria mexicana completa. No se distribuyen entre complejos ni
                         se atribuyen a una cadena.</p>
                 </article>
-                <article><span>03</span>
+                <article data-source="sintetico"><span>03 · SINTÉTICO</span>
                     <h3>Operación sintética</h3>
                     <p>El piloto usa complejos reales del directorio, pero salas modeladas, películas ficticias y ventas
                         generadas por supuestos. La base SQLite permite repetir la generación.</p>
@@ -302,7 +316,9 @@
                 Datos utilizados con fines educativos y atribuidos a sus fuentes originales.</p>
         </section>
     </main>
-    <footer><span>OBSERVATORIO CINE · PROYECTO FINAL DE ALMACENES DE DATOS</span><a href="#inicio">VOLVER ARRIBA ↑</a>
+    <footer class="footer">
+        <span>OBSERVATORIO CINE · PROYECTO FINAL DE ALMACENES DE DATOS</span>
+        <a href="#inicio">VOLVER ARRIBA <span aria-hidden="true">↑</span></a>
     </footer>
 </body>
 

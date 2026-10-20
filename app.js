@@ -92,7 +92,8 @@ async function loadSynthetic() {
     $('synthetic-view').addEventListener('change', draw);
     draw();
   } catch (error) {
-    $('synthetic-chart').textContent = 'No se pudo cargar el resumen sintético. Abre el sitio mediante un servidor local.';
+    const status = document.createElement('p'); status.className = 'chart-status is-error'; status.textContent = 'No se pudo cargar el resumen sintético. Abre el sitio mediante un servidor local.';
+    $('synthetic-chart').replaceChildren(status);
   }
 }
 loadSynthetic();
