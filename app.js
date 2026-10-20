@@ -38,6 +38,7 @@ function render() {
     const number = document.createElement('b'); number.textContent = fmt.format(count);
     track.append(fill); row.append(label, track, number); $('bar-chart').append(row);
   });
+  $('bar-chart').setAttribute('aria-label', 'Complejos por entidad, top 8 nacional: ' + top.map(([state, count]) => state + ' ' + fmt.format(count)).join(', '));
 }
 
 async function load() {
@@ -54,7 +55,8 @@ async function load() {
     render();
   } catch(error) {
     $('complex-table').innerHTML = '<tr><td colspan="3">No se pudo cargar el directorio. Abre el sitio mediante un servidor local.</td></tr>';
-    $('bar-chart').textContent = error.message;
+    const status = document.createElement('p'); status.className = 'chart-status is-error'; status.textContent = error.message;
+    $('bar-chart').replaceChildren(status);
   }
 }
 load();

@@ -107,20 +107,42 @@
                     y el piloto sintético permite ensayar indicadores operativos. Cada vista conserva su alcance.</p>
             </div>
             <div class="overview">
-                <article class="overview-card featured"><span>A / EMPRESA</span>
+                <article class="overview-card" data-kind="empresa">
+                    <div class="card-top">
+                        <span class="card-letter" aria-hidden="true">A</span>
+                        <svg class="card-icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+                            <path d="M8 40V18l16-9 16 9v22Z"/><path d="M16 40V28h16v12"/><path d="M4 40h40"/>
+                        </svg>
+                    </div>
+                    <span class="card-tag">EMPRESA</span>
                     <h3>Infraestructura Cinépolis</h3>
-                    <p>Complejos y pantallas identificados en el directorio público del Sistema de Información Cultural.
-                    </p><a href="#infraestructura">Explorar infraestructura ↗</a>
+                    <p>Complejos y pantallas identificados en el directorio público del Sistema de Información Cultural.</p>
+                    <a href="#infraestructura">Explorar infraestructura <span aria-hidden="true">↗</span></a>
                 </article>
-                <article class="overview-card"><span>B / INDUSTRIA</span>
+                <article class="overview-card" data-kind="industria">
+                    <div class="card-top">
+                        <span class="card-letter" aria-hidden="true">B</span>
+                        <svg class="card-icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+                            <path d="M6 40h36"/><path d="M8 32l10-10 8 6 14-16"/><path d="M32 12h8v8"/>
+                        </svg>
+                    </div>
+                    <span class="card-tag">INDUSTRIA</span>
                     <h3>Mercado mexicano</h3>
                     <p>Asistencia y taquilla nacionales reportadas por CANACINE para contextualizar la actividad
-                        cinematográfica.</p><a href="#mercado">Ver cifras de mercado ↗</a>
+                        cinematográfica.</p>
+                    <a href="#mercado">Ver cifras de mercado <span aria-hidden="true">↗</span></a>
                 </article>
-                <article class="overview-card"><span>C / MODELO SINTÉTICO</span>
+                <article class="overview-card" data-kind="sintetico">
+                    <div class="card-top">
+                        <span class="card-letter" aria-hidden="true">C</span>
+                        <svg class="card-icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+                            <rect x="8" y="8" width="32" height="32" rx="7"/><circle cx="17" cy="17" r="2.5"/><circle cx="24" cy="24" r="2.5"/><circle cx="31" cy="31" r="2.5"/>
+                        </svg>
+                    </div>
+                    <span class="card-tag">MODELO SINTÉTICO</span>
                     <h3>Operación de ejemplo</h3>
                     <p>Funciones, asistencia y dulcería inventadas con reglas reproducibles para ensayar análisis de BI.</p>
-                    <a href="#operacion">Explorar piloto ↗</a>
+                    <a href="#operacion">Explorar piloto <span aria-hidden="true">↗</span></a>
                 </article>
             </div>
         </section>
@@ -134,11 +156,11 @@
                     descrito en la metodología.</p>
             </div>
             <div class="metrics" aria-live="polite">
-                <article><span>COMPLEJOS IDENTIFICADOS</span><strong id="complex-count">—</strong><small
+                <article class="metric"><span>COMPLEJOS IDENTIFICADOS</span><strong id="complex-count">—</strong><small
                         id="metric-area">Directorio SIC · México</small></article>
-                <article><span>PANTALLAS REGISTRADAS</span><strong id="screen-count">—</strong><small>Sumatoria de los
+                <article class="metric"><span>PANTALLAS REGISTRADAS</span><strong id="screen-count">—</strong><small>Sumatoria de los
                         registros seleccionados</small></article>
-                <article><span>COBERTURA NACIONAL</span><strong id="state-count">—</strong><small>Entidades federativas
+                <article class="metric"><span>COBERTURA NACIONAL</span><strong id="state-count">—</strong><small>Entidades federativas
                         con registros</small></article>
             </div>
             <div class="explorer">
@@ -146,28 +168,34 @@
                     <div class="panel-head">
                         <div><span>DISTRIBUCIÓN GEOGRÁFICA</span>
                             <h3>Complejos por entidad</h3>
-                        </div><small>TOP 8</small>
+                        </div><small>TOP 8 · NACIONAL</small>
                     </div>
-                    <div id="bar-chart" class="bar-chart" role="img" aria-label="Complejos por entidad"></div>
+                    <div id="bar-chart" class="bar-chart" role="img" aria-label="Complejos por entidad">
+                        <p class="chart-status">Cargando datos…</p>
+                    </div>
+                    <p class="panel-note">Ranking de las 8 entidades con más complejos en todo el directorio; no cambia con los filtros.</p>
                 </article>
                 <article class="panel">
                     <div class="panel-head">
                         <div><span>DIRECTORIO INTERACTIVO</span>
                             <h3>Explorar complejos</h3>
-                        </div><small id="result-count"></small>
+                        </div><small id="result-count" role="status"></small>
                     </div>
-                    <div class="filters"><label class="sr-only" for="state-filter">Entidad</label><select
-                            id="state-filter">
-                            <option value="">Todas las entidades</option>
-                        </select><label class="sr-only" for="search-filter">Buscar</label><input id="search-filter"
-                            type="search" placeholder="Buscar complejo o ciudad…"></div>
-                    <div class="table-wrap">
+                    <div class="filters">
+                        <div class="field"><label for="state-filter">Entidad</label><select id="state-filter">
+                                <option value="">Todas las entidades</option>
+                            </select></div>
+                        <div class="field field-grow"><label for="search-filter">Buscar</label><input id="search-filter"
+                                type="search" placeholder="Complejo o ciudad…" autocomplete="off"></div>
+                    </div>
+                    <div class="table-wrap" tabindex="0" role="region" aria-label="Tabla de complejos, desplazable">
                         <table>
+                            <caption class="sr-only">Complejos Cinépolis del directorio SIC según los filtros seleccionados</caption>
                             <thead>
                                 <tr>
-                                    <th>Complejo</th>
-                                    <th>Entidad</th>
-                                    <th>Pantallas</th>
+                                    <th scope="col">Complejo</th>
+                                    <th scope="col">Entidad</th>
+                                    <th scope="col">Pantallas</th>
                                 </tr>
                             </thead>
                             <tbody id="complex-table">

@@ -18,6 +18,7 @@
     --ink: #17253b;
     --muted: #4f5d78;
     --line: #dce4ef;
+    --danger: #b42318;
 
     /* Contornos */
     --stroke: 2px;
@@ -236,7 +237,8 @@ button, input, select { font: inherit }
 }
 
 /* ==========================================================
-   5. Secciones de datos (pendientes de rediseño)
+   5. Estructura de secciones y vistas pendientes de rediseño
+      (Mercado, Operación, Simulación, Metodología)
    ========================================================== */
 .section{padding:95px max(4vw,24px);max-width:1600px;margin:0 auto;scroll-margin-top:16px}
 .section-head{display:flex;justify-content:space-between;gap:55px;align-items:end;margin-bottom:36px}
@@ -244,44 +246,12 @@ button, input, select { font: inherit }
 .section-head>p{max-width:445px;color:#61708a;line-height:1.65;font-size:14px;margin:0}
 .kicker{color:#1865d6;margin:0 0 12px}
 .section h2{font-size:clamp(32px,3.5vw,52px);line-height:1.15;margin:0;color:#12223c}
-.overview{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-.overview-card{min-height:278px;background:#fff;border:1px solid var(--line);padding:35px;display:flex;flex-direction:column;align-items:flex-start}
-.overview-card.featured{background:#0d2448;color:#fff;border-color:#0d2448}
-.overview-card>span,.market-feature>span{font-size:10px;letter-spacing:.18em;color:#3477dc;font-weight:700}
-.overview-card.featured>span{color:#8abfff}
-.overview-card h3{font-family:Manrope,sans-serif;font-size:23px;letter-spacing:-.03em;margin:25px 0 9px}
-.overview-card p{max-width:410px;color:#6a7790;line-height:1.6;font-size:14px;margin:0 0 24px}
-.overview-card.featured p{color:#b5c9e8}
-.overview-card a{font-size:13px;font-weight:700;color:#165ed2;margin-top:auto}
-.overview-card.featured a{color:#8abfff}
-.data-section{padding-top:70px}
-.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:17px}
-.metrics article{background:#fff;border:1px solid var(--line);padding:26px 30px;min-height:155px}
-.metrics span,.market-stat>span{display:block;font-size:10px;letter-spacing:.16em;color:#617494;font-weight:700}
-.metrics strong{display:block;font-family:Manrope,sans-serif;font-size:43px;letter-spacing:-.05em;color:#102348;margin:12px 0 5px}
-.metrics small{color:#8997ab;font-size:11px}
-.explorer{display:grid;grid-template-columns:.95fr 1.05fr;gap:17px}
+.market-feature>span{font-size:10px;letter-spacing:.18em;color:#3477dc;font-weight:700}
+.market-stat>span{display:block;font-size:10px;letter-spacing:.16em;color:#617494;font-weight:700}
 .panel{background:#fff;border:1px solid var(--line);padding:27px;min-height:430px}
 .panel-head{display:flex;justify-content:space-between;align-items:flex-start;border-bottom:1px solid #e9edf4;padding-bottom:19px}
 .panel-head span,.panel-head small{font-size:10px;letter-spacing:.15em;color:#6b7c98}
 .panel-head h3{font-family:Manrope,sans-serif;font-size:19px;margin:8px 0 0;color:#172b4d}
-.bar-chart{display:flex;flex-direction:column;gap:13px;padding-top:23px}
-.bar-row{display:grid;grid-template-columns:125px 1fr 34px;gap:12px;align-items:center;font-size:11px;color:#52647f}
-.bar-row .bar-track{height:9px;background:#e9f0fb;border-radius:20px;overflow:hidden}
-.bar-row .bar-fill{height:100%;background:linear-gradient(90deg,#1362db,#6caaff);border-radius:20px}
-.bar-row b{text-align:right;color:#153568}
-.filters{display:flex;gap:8px;margin:17px 0}
-.filters select,.filters input{border:1px solid #d6e0ec;background:#f8faff;padding:11px 12px;border-radius:3px;color:#1f3150;font-size:12px;min-width:0}
-.filters select{width:40%}
-.filters input{width:60%}
-.filters :focus{outline:2px solid #488bff;outline-offset:1px}
-.table-wrap{height:265px;overflow:auto}
-table{width:100%;border-collapse:collapse;font-size:11px}
-th{text-align:left;color:#72829a;font-size:10px;letter-spacing:.1em;background:#fff;position:sticky;top:0}
-td,th{padding:11px 8px;border-bottom:1px solid #eef1f6}
-td:last-child,th:last-child{text-align:right}
-td{color:#30425d}
-td:first-child{font-weight:700}
 .market-section{padding-top:75px}
 .market-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:17px}
 .market-feature,.market-stat{min-height:245px;padding:29px}
@@ -318,8 +288,8 @@ td:first-child{font-weight:700}
 .academic-note{margin-top:20px;color:#8b97a8;font-size:11px}
 footer{background:#08111f;color:#8c9bb3;padding:35px max(4vw,24px);display:flex;justify-content:space-between;font-size:10px;letter-spacing:.14em}
 footer a{color:#b8d7ff}
-@media(max-width:900px){.section-head{align-items:start;display:block}.section-head>div{max-width:none}.section-head>p{margin-top:18px}.explorer,.market-grid{grid-template-columns:1fr}.market-feature{min-height:245px}.market-stat{min-height:180px}.simulation{grid-template-columns:1fr}.simulation-art{display:none}}
-@media(max-width:650px){.section{padding:70px 22px}.overview,.metrics,.method-grid{grid-template-columns:1fr}.overview-card{min-height:230px}.metrics{gap:9px}.metrics article{min-height:125px}.bar-row{grid-template-columns:90px 1fr 28px}.source-strip{display:block}.source-strip p{margin:10px 0}.simulation{padding:34px}.simulation h2{font-size:35px}footer{gap:20px;line-height:1.6}}
+@media(max-width:900px){.section-head{align-items:start;display:block}.section-head>div{max-width:none}.section-head>p{margin-top:18px}.market-grid{grid-template-columns:1fr}.market-feature{min-height:245px}.market-stat{min-height:180px}.simulation{grid-template-columns:1fr}.simulation-art{display:none}}
+@media(max-width:650px){.section{padding:70px 22px}.method-grid{grid-template-columns:1fr}.source-strip{display:block}.source-strip p{margin:10px 0}.simulation{padding:34px}.simulation h2{font-size:35px}footer{gap:20px;line-height:1.6}}
 .synthetic-section{padding-top:75px}
 .synthetic-label{display:inline-block;background:#fff2d8;color:#835714;border:1px solid #f0d6a7;font-size:10px;font-weight:700;letter-spacing:.16em;padding:10px 13px;margin-bottom:17px}
 .synthetic-metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:17px}
@@ -334,7 +304,146 @@ footer a{color:#b8d7ff}
 .synthetic-month span{font-size:10px;color:#6c7d96;text-transform:uppercase}
 .synthetic-footnote{font-size:11px;color:#78879a;margin:20px 0 0}
 .synthetic-footnote a{color:#165fc8;font-weight:700}
-.overview{grid-template-columns:repeat(3,minmax(0,1fr))}
-@media(max-width:900px){.overview{grid-template-columns:1fr 1fr}}
 @media(max-width:650px){.synthetic-metrics{grid-template-columns:1fr}.synthetic-chart{gap:4px}.synthetic-month span{font-size:8px}.synthetic-panel{padding:18px}}
-@media(max-width:650px){.overview{grid-template-columns:1fr}}
+
+/* ==========================================================
+   6. Panorama
+   ========================================================== */
+.overview { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px }
+.overview-card {
+    display: flex; flex-direction: column; align-items: flex-start; min-height: 300px; padding: 26px 26px 28px;
+    background: var(--paper); border: var(--border); border-radius: var(--radius-lg); box-shadow: var(--shadow-md);
+    transition: transform .15s ease, box-shadow .15s ease;
+}
+.overview-card:hover, .overview-card:focus-within { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--navy) }
+/* El borde discontinuo distingue la perspectiva sintética sin depender del color */
+.overview-card[data-kind="sintetico"] { border-style: dashed }
+
+.card-top { display: flex; align-items: center; justify-content: space-between; width: 100%; margin-bottom: 22px }
+.card-letter {
+    display: grid; place-items: center; width: 46px; height: 46px; border: var(--border); border-radius: 50%;
+    background: var(--blue); color: #fff; font-family: var(--font-display); font-size: 20px; font-weight: 800;
+    box-shadow: var(--shadow-sm);
+}
+.card-icon { width: 44px; height: 44px; fill: none; stroke: var(--navy); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round }
+.card-icon circle { fill: var(--navy); stroke: none }
+.card-tag { font-size: 11px; font-weight: 700; letter-spacing: .16em; color: var(--blue) }
+.overview-card h3 { font-family: var(--font-display); font-size: 24px; font-weight: 800; letter-spacing: -.03em; line-height: 1.2; color: var(--navy); margin: 8px 0 10px }
+.overview-card p { max-width: 400px; margin: 0 0 26px; font-size: 15px; line-height: 1.6; color: var(--muted) }
+.overview-card a {
+    margin-top: auto; display: inline-flex; gap: 6px; padding-bottom: 2px;
+    font-size: 14px; font-weight: 700; color: var(--navy); border-bottom: var(--stroke-bold) solid var(--blue);
+    transition: color .15s;
+}
+.overview-card a:hover { color: var(--blue) }
+.overview-card a:focus-visible { outline: none; border-radius: 4px; box-shadow: var(--focus-ring) }
+
+/* ==========================================================
+   7. Infraestructura
+   ========================================================== */
+.data-section .metrics { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; margin-bottom: 22px }
+.metric {
+    display: flex; flex-direction: column; min-height: 150px; padding: 22px 26px;
+    background: var(--paper); border: var(--border); border-radius: var(--radius-md); box-shadow: var(--shadow-md);
+}
+.metric span { font-size: 11px; font-weight: 700; letter-spacing: .16em; color: var(--navy-soft) }
+.metric strong {
+    font-family: var(--font-display); font-size: 46px; font-weight: 800; letter-spacing: -.04em; line-height: 1;
+    color: var(--navy); margin: 14px 0 10px; font-variant-numeric: tabular-nums;
+}
+.metric small { margin-top: auto; font-size: 13px; color: var(--muted) }
+
+.explorer { display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); gap: 22px; align-items: start }
+.data-section .panel {
+    min-height: 0; padding: 24px 26px 26px;
+    background: var(--paper); border: var(--border); border-radius: var(--radius-lg); box-shadow: var(--shadow-md);
+}
+.data-section .panel-head { align-items: center; gap: 16px; padding-bottom: 16px; border-bottom: var(--stroke) dashed rgba(11, 31, 75, .25) }
+.data-section .panel-head span { font-size: 11px; font-weight: 700; letter-spacing: .15em; color: var(--navy-soft) }
+.data-section .panel-head h3 { font-family: var(--font-display); font-size: 21px; font-weight: 800; letter-spacing: -.02em; color: var(--navy); margin: 6px 0 0 }
+.data-section .panel-head small {
+    flex: none; padding: 5px 10px; border: var(--border); border-radius: var(--radius-pill); background: var(--cream);
+    font-size: 10px; font-weight: 700; letter-spacing: .14em; color: var(--navy); white-space: nowrap;
+}
+
+/* Gráfico por entidad: sobrio, sin sombras */
+.bar-chart { display: flex; flex-direction: column; gap: 14px; padding-top: 22px }
+.bar-row { display: grid; grid-template-columns: minmax(0, 150px) minmax(0, 1fr) 40px; gap: 12px; align-items: center; font-size: 13px; color: var(--ink) }
+.bar-row span { line-height: 1.25 }
+.bar-track { height: 14px; background: var(--sky-soft); border: 1.5px solid var(--navy); border-radius: var(--radius-pill); overflow: hidden }
+.bar-fill { height: 100%; background: var(--blue); border-radius: var(--radius-pill) }
+.bar-row b { text-align: right; font-family: var(--font-display); font-size: 14px; font-weight: 800; color: var(--navy); font-variant-numeric: tabular-nums }
+.chart-status { margin: 0; padding: 28px 0; font-size: 14px; color: var(--muted) }
+.chart-status.is-error { color: var(--danger); font-weight: 600 }
+.panel-note { margin: 20px 0 0; font-size: 12px; line-height: 1.5; color: var(--muted) }
+
+/* Filtros */
+.filters { display: flex; gap: 12px; margin: 20px 0 16px }
+.field { display: flex; flex-direction: column; gap: 6px; width: 46%; min-width: 0 }
+.field-grow { flex: 1 }
+.field label { font-size: 12px; font-weight: 700; color: var(--navy) }
+.filters select, .filters input {
+    width: 100%; min-width: 0; height: 46px; padding: 0 14px;
+    background: #fff; color: var(--ink); font-size: 15px;
+    border: var(--border); border-radius: var(--radius-md);
+    transition: box-shadow .12s;
+}
+.filters select {
+    appearance: none; -webkit-appearance: none; padding-right: 40px; cursor: pointer;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3 6l5 5 5-5' fill='none' stroke='%230b1f4b' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: right 14px center; background-size: 16px;
+}
+.filters input::placeholder { color: #7a869c }
+.filters select:hover, .filters input:hover { box-shadow: var(--shadow-sm) }
+.filters select:focus-visible, .filters input:focus-visible { outline: none; box-shadow: var(--focus-ring) }
+
+/* Tabla de complejos */
+.data-section .table-wrap {
+    height: 340px; overflow: auto; overscroll-behavior: contain;
+    background: #fff; border: var(--border); border-radius: var(--radius-md);
+}
+.data-section .table-wrap:focus-visible { outline: none; box-shadow: var(--focus-ring) }
+.data-section table { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 14px }
+.data-section th {
+    position: sticky; top: 0; z-index: 1; padding: 12px 14px; text-align: left;
+    background: var(--cream); color: var(--navy); font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+    border-bottom: var(--border);
+}
+.data-section td { padding: 11px 14px; border-bottom: 1px solid var(--line); color: var(--ink); vertical-align: top }
+.data-section td:first-child { font-weight: 700; color: var(--navy) }
+.data-section td:last-child, .data-section th:last-child { text-align: right }
+.data-section td:last-child { font-weight: 700; font-variant-numeric: tabular-nums }
+.data-section tbody tr:hover td { background: var(--sky-soft) }
+.data-section tbody tr:last-child td { border-bottom: 0 }
+/* Filas de estado: cargando, sin resultados o error */
+.data-section td[colspan] { padding: 40px 16px; text-align: center; font-weight: 500; color: var(--muted) }
+.data-section tbody tr:hover td[colspan] { background: transparent }
+
+@media (max-width: 1000px) {
+    .overview { grid-template-columns: repeat(2, minmax(0, 1fr)) }
+    .overview-card:last-child { grid-column: 1 / -1 }
+    .overview-card { min-height: 260px }
+}
+@media (max-width: 900px) {
+    .explorer { grid-template-columns: minmax(0, 1fr) }
+}
+@media (max-width: 650px) {
+    .overview { grid-template-columns: minmax(0, 1fr); gap: 16px }
+    .overview-card { min-height: 0; padding: 22px }
+    .overview-card h3 { font-size: 22px }
+    .card-top { margin-bottom: 16px }
+    .data-section .metrics { grid-template-columns: minmax(0, 1fr); gap: 12px }
+    .metric { min-height: 0; padding: 18px 20px }
+    .metric strong { font-size: 38px; margin: 10px 0 8px }
+    .data-section .panel { padding: 18px 14px }
+    .data-section .panel-head { align-items: flex-start }
+    .bar-row { grid-template-columns: minmax(0, 108px) minmax(0, 1fr) 34px; gap: 10px; font-size: 12px }
+    .filters { flex-direction: column }
+    .field { width: 100% }
+    .filters select, .filters input { font-size: 16px }
+    .data-section .table-wrap { height: 380px }
+    .data-section table { font-size: 13px }
+    .data-section th, .data-section td { padding: 10px 6px }
+    .data-section td { hyphens: auto }
+    .data-section th { font-size: 10px; letter-spacing: .06em }
+}
